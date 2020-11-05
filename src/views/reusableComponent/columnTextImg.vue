@@ -1,7 +1,7 @@
 <template>
   <div class="donazione_">
     <div class="divText">
-      <h3 class="text2 cursive color">{{textTitle}}</h3>
+      <h3 class="text2 color">{{textTitle}}</h3>
       <p class="text2">{{firstText}}</p>
       <p class="text2"><b class="blue"> {{secondText}}</b> {{sndPartTwo}} </p>
       <p class="text2"><b class="darkblue">{{thirdText}}</b>{{trdPartTwo}}</p>
@@ -33,8 +33,6 @@ export default {
       font-family: 'Montserrat'
       font-size: 1.3em
       text-align: left
-    .cursive
-      font-family: cursive
     .color
       color: red
     .blue
