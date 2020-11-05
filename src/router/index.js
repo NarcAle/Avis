@@ -12,6 +12,7 @@ import DoveDonare from '../views/Donazione/doveDonare.vue'
 import Sede from '../views/doveSiamo/sede.vue'
 import UniscitiA_Noi from '../views/unisciti/uniscitiAnoi.vue'
 import news from '../views/news/news.vue'
+import newsVaccino from '../views/news/newsVaccino.vue'
 
 Vue.use(VueRouter)
 
@@ -74,6 +75,11 @@ const routes = [
     path: '/news',
     name: 'news',
     component: news
+  },
+  {
+    path: '/news-vaccino',
+    name: 'news-vaccino',
+    component: newsVaccino
   }
 ]
 
