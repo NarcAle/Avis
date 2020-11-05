@@ -1,5 +1,5 @@
 <template>
-  <div class="chi_siamo">
+  <div class="chi_siamo container">
     <h1 class="sede">{{titleNostraStoria}}</h1>
     <hr/>
     <div>

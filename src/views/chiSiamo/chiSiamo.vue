@@ -1,5 +1,5 @@
 <template>
-  <div class="chi_siamo">
+  <div class="chi_siamo container">
     <!--<h1 class="sede">{{titleSoci}}</h1>
     <hr/>
     <only-text :text=onlyMyText ></only-text>
