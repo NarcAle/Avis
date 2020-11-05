@@ -1,0 +1,25 @@
+$background-1: #82b1d8
+  
+.grid-container
+  display: grid
+  background-color: $background-1
+  border: 1.5px solid rgba(0, 0, 0, 0.8)
+
+.grid-container-text
+  display: flex
+  flex-direction: column
+  margin: 0 auto
+  background-color: rgba(255, 255, 255, 0.8)
+  .grid-item
+    .img-logo
+      max-width: 100%
+  .text
+    line-height: 10em
+    opacity: 1
+
+@media (min-width: 768px)
+  .grid-container
+    .grid-container-text
+      flex-direction: row
+      .text
+        margin-left: 10em

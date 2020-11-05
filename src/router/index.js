@@ -1,6 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import SociFondatori from '../views/chiSiamo/SociFondatori.vue'
+import NostraStoria from '../views/chiSiamo/NostraStoria.vue'
+import Mission from '../views/chiSiamo/Mission.vue'
+import ConsiglioDirettivo from '../views/chiSiamo/chiSiamo.vue'
+import Donazione from '../views/Donazione/laDonazione.vue'
+import PerchèDonare from '../views/Donazione/perchèDonare.vue'
+import ComeDonare from '../views/Donazione/comeDonare.vue'
+import DoveDonare from '../views/Donazione/doveDonare.vue'
+import Sede from '../views/doveSiamo/sede.vue'
+import UniscitiA_Noi from '../views/unisciti/uniscitiAnoi.vue'
+import news from '../views/news/news.vue'
 
 Vue.use(VueRouter)
 
@@ -11,14 +22,58 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/About.vue')
-    }
+    path: '/i_soci_fondatori',
+    name: 'i_soci_fondatori',
+    component: SociFondatori
+  },
+  {
+    path: '/la_nostra_storia',
+    name: 'la_nostra_storia',
+    component: NostraStoria
+  },
+  {
+    path: '/mission',
+    name: 'mission',
+    component: Mission
+  },{
+    path: '/consiglio_direttivo',
+    name: 'consiglio_direttivo',
+    component: ConsiglioDirettivo
+  },
+  {
+    path: '/la_donazione',
+    name: 'la_donazione',
+    component: Donazione
+  },
+  {
+    path: '/perchè_donare',
+    name: 'perchè_donare',
+    component: PerchèDonare
+  },
+  {
+    path: '/come_donare',
+    name: 'come_donare',
+    component: ComeDonare
+  },
+  {
+    path: '/dove_donare',
+    name: 'dove_donare',
+    component: DoveDonare
+  },
+  {
+    path: '/sede',
+    name: 'Sede',
+    component: Sede
+  },
+  {
+    path: '/unisciti_a_noi',
+    name: 'unisciti_a_noi',
+    component: UniscitiA_Noi
+  },
+  {
+    path: '/news',
+    name: 'news',
+    component: news
   }
 ]
 

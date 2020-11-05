@@ -1,0 +1,62 @@
+$gradientBlue1: #009FFD
+$gradientBlue2: darkred
+
+
+.sede_page 
+  padding-top: 30px
+  text-align: center
+  
+  .sede
+    padding-bottom: 30px
+    text-align: right
+    color: darkred
+    text-transform: uppercas
+    margin-right: 36px
+
+  .map_and_description
+    //background-color: white
+    //padding: 5em 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin: 5em 0
+
+    .title, .address, .titleODV
+      font-family: 'Comic Neue', cursive
+
+    .title
+      font-size: 2em
+      font-weight: bolder
+      //color: linear-gradient($gradientBlue2,$gradientBlue1) !important
+    
+    .titleODV
+      font-size: 1.5em
+      font-weight: bolder
+
+    .address
+      font-size: 1.5em
+
+    .containerMap
+      max-width: 300px
+      margin: 0 auto
+      .mapForlimpopoli
+        width: 250px
+        margin: 0 auto
+    
+@media (min-width: 600px)
+  .sede_page 
+    padding-top: 30px
+    text-align: center
+    
+    .map_and_description
+      display: flex
+      flex-direction: row
+      justify-content: space-around
+      margin: 5em 0
+
+      .containerMap
+        max-width: 100%
+        margin: 0
+        .mapForlimpopoli
+          width: 600px !important
+        

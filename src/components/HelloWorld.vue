@@ -1,57 +1,160 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="container">
+    <div class="banner5X1000">
+      <img src="../assets/Banner-5x1000.png" style="width:100%"/>
+      <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12></only-text>     
+    </div>
+    <hr/>
+    <h1 class="titleBanner">Dona sangue o plasma</h1>
+    <h3>Per iniziare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
+    <div class="flipflop">
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div>
+              <img class="vc_single_image-img " src="../assets/name.svg" alt="Donatore" title="Donatore" /><br/><br/>
+              <h1 class="titleBanner">18 - 60 anni</h1><br/><br/>
+              <p>Età per iniziare a donare.</p>
+            </div>
+          </div>
+          <div class="back" >
+            <!-- back content -->
+            <div class="text">
+              <h1 class="titleBanner">PER I DONATORI PERIODICI</h1><br/><br/>
+              <p>La donazione può essere consentita fino a 60 anni, previa valutazione clinica del medico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div>
+              <img class="vc_single_image-img " src="../assets/weight-scale.svg" alt="Peso Donatore" title="Peso Donatore" /><br/><br/>
+              <h1 class="titleBanner">50 kg</h1><br/><br/>
+              <p>Peso minimo necessario.</p>
+            </div>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <div class="text">
+              <h1 class="titleBanner">PER UOMINI E DONNE</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div>
+              <img class="vc_single_image-img " src="../assets/heart.svg" alt="Donatore" title="Donatore" /><br/>
+              <h1 class="titleBanner">Buono stato di salute</h1><br/><br/>
+              <p>Il donatore deve godere di un buono stato di salute per iniziare a donare.</p>
+            </div>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <div class="text">
+              <h1 class="titleBanner">VALORI NELLA NORMA</h1><br/><br/>
+              <p>Pressione arteriosa nella norma, frequenza cardiaca tra i 50 e 100 battiti al minuto ed 
+                emoglobina con valori minimi necessari. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="news">
+      <div class="innerNews">
+        <div>
+          <div class="relatedNews"><p class="title">News correlate</p></div>
+          <div class="event">
+            <b-carousel
+              id="carousel-1"
+              :interval="4000"
+              controls
+              indicators
+              background="#ababab"
+              img-width="1024"
+              img-height="480"
+              style="text-shadow: 1px 1px 2px #333;"
+              
+            >
+              <b-carousel-slide>
+                <template #img>
+                  <img
+                    class="d-block img-fluid w-100"
+                    width="0"
+                    height="0"
+                    src="../assets/40anniversario2.jpg"
+                    alt="image slot"
+                    @click="redirect"
+                  >
+                </template>
+              </b-carousel-slide>
+
+              <b-carousel-slide>
+                <template #img>
+                  <img
+                    class="d-block img-fluid w-100"
+                    width="0"
+                    height="0"
+                    src="../assets/40anniversario2.jpg"
+                    alt="image slot"
+                  >
+                </template>
+              </b-carousel-slide>
+            </b-carousel>
+          </div>
+        </div>
+        <div class="innerNews">
+          <div class="relatedNews"><p class="title">Eventi sul territorio</p></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import onlyText from '../views/reusableComponent/onlyText.vue'
+
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  data() {
+    return {
+      titleBanner: "Dona il tuo 5x1000 ad AVIS Forlimpopoli",
+      onlyText: "Anche quest'anno potrai sostenere con la tua dichiarazione dei redditi",
+      colored: " AVIS NAZIONALE.",
+      text12: "È facile e non comporta alcuna spesa aggiuntiva.\n"+
+      "I modelli per la dichiarazione dei redditi CU, 730 e UNICO hanno uno spazio dedicato al 5 per mille, in cui puoi "+
+      "firmare indicando il codice fiscale di AVIS Forlimpopoli 80014660403 nella sezione relativa al Sostegno degli enti "+ 
+      "di volontariato. Anche chi non compila la dichiarazione dei redditi, ovvero chi ha solo il modello CU fornito dal "+
+      "datore di lavoro o dall’ente erogatore della pensione, può destinare il 5 per mille.\n\nGrazie da AVIS Forlimpopoli!"
+    }
+  },
+  components: {
+    onlyText
+  },
+  methods: {
+    onSlideStart() {
+      this.sliding = true
+    },
+    onSlideEnd() {
+      this.sliding = false
+    },
+    redirect() {
+      this.$router.push('/news')
+    }
   }
 }
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style lang="sass">
+@import './Home' 
+
 </style>
