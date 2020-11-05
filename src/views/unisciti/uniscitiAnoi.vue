@@ -1,37 +1,37 @@
 <template>
-  <div class="home_part">
+  <div class="home_part container">
     <h1 class="donazione"> Unisciti a noi </h1>
     <hr>
     <div class="text map_and_description">
-      <h1 class="donazione"> Diventa anche tu<br/> un donatore </h1>
+      <h1 class="donazione smaller"> Diventa anche tu un donatore </h1><br/>
       <img class="join" src="../../assets/diventa-donatore.jpg" alt="diventa-donatore"/><br/>
     </div>
-    <div>
+    <div class="textInformativo">
       <h3 class="text2 color">Il sangue è vita </h3>
-      <p class="text2">Il sangue è un tessuto liquido composto per il 55% da una sostanza liquida chiamata <b>PLASMA</b>,e per il restante 45% da tre specie di elementi cellulari: </p>
+      <p class="text2">Il sangue è un tessuto liquido composto per il 55% da una sostanza liquida chiamata <b style="color:darkblue">PLASMA</b>,e per il restante 45% da tre specie di elementi cellulari: </p>
       <div class="text map_and_description">
         <ul class="text2">
           <li>I GLOBULI ROSSI (eritrociti)</li>
           <li>I GLOBULI BIANCHI (leucociti)</li>
           <li>LE PIASTRINE (trombociti)</li>
         </ul>
-        <img src="../../assets/grafico_sangue.jpg" alt="grafico_sangue"/><br/>
+        <img src="../../assets/grafico_sangue.jpg" alt="grafico_sangue" style="whidth:100%"/><br/>
       </div>
       <p class="text2">Il sangue inoltre si distingue in arterioso e venoso</p>
       <ul class="text2">
-        <li>- L'<b>arterioso</b> è di color rosso vivo e ricco di ossigeno</li>
-        <li>- Il <b>venoso</b> è di color rosso cupo e carico di anidride carbonica</li>
+        <li>L'<b>arterioso</b> è di color rosso vivo e ricco di ossigeno</li>
+        <li>Il <b>venoso</b> è di color rosso cupo e carico di anidride carbonica</li>
       </ul>
-      <p class="text2">Il sangue costituisce circa il <b>5-7% del volume corporeo</b>.
+      <p class="text2">Il sangue costituisce circa il <b style="color:darkblue">5-7% del volume corporeo</b>.
           Nel nostro organismo ne circolano, in media, 4/5 litri in un sistema di canali o vasi, distinti in arterie, vene e capillari,
-          sospinto dal cuore, che funziona come una pompa aspirante e premente.
-          <b>Il sangue è fondamentale per l'organismo</b>: perdite di sangue (emorragie) del 15-30% provocano pallore e stanchezza;
+          sospinto dal cuore, che funziona come una pompa aspirante e premente.<br/>
+          <b style="color:darkblue">Il sangue è fondamentale per l'organismo</b>: perdite di sangue (emorragie) del 15-30% provocano pallore e stanchezza;
           perdite superiori al 35% possono causare la morte in brevissimo tempo</p>
       </div>
-      <img class="emo" src="../../assets/emocomponenti.png" alt="emocomponenti"/><br/>
+      <img class="emo" src="../../assets/emocomponenti.png" alt="emocomponenti" width="100%"/><br/>
       <hr>
       <br/><br/>
-      <div>
+      <div class="textInformativo">
         <h3 class="text2 color">Il Plasma </h3>
         <p class="text2">Il siero libero da cellule, o plasma, può essere <b>ottenuto per centrifugazione</b>. </p>
         <p class="text2">Il plasma rappresenta la componente liquida del sangue, grazie alla quale le cellule sanguigne possono circolare.
@@ -48,8 +48,9 @@
             una vita pressochè normale a chi soffre di emofilia.</li>
         </ul>
       </div>
-      <div>
-        <h4 class="text2">Le funzioni del sangue</h4>
+      <br/>
+      <div class="textInformativo">
+        <h4 class="text2 color">Le funzioni del sangue</h4>
         <p class="text2">Il sangue esercita numerose funzioni all’interno dell’organismo:</p>
         <ul class="text2">
           <li>Respiratoria (scambio ossigeno/anidride carbonica).</li>
@@ -65,3 +66,7 @@
       <br/><br/><br/>
     </div>
 </template>
+
+<style lang="sass">
+@import './uniscitiAnoi';
+</style>
