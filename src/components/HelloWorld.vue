@@ -1,28 +1,32 @@
 <template>
   <div class="container">
+    <div class="bannerVaccino">
+      <div><p class="textBanner">In evidenza</p></div>
+      <img src="../assets/vaccino-antinfluenza.jpg" @click="redirectVaccino" class="hoverImg" style="width:100%"/>    
+    </div>
+    <hr/>
     <div class="banner5X1000">
-      <img src="../assets/Banner-5x1000.png" style="width:100%"/>
+      <img src="../assets/Banner-5x1000.png" class="hoverImg" style="width:100%"/>
       <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12></only-text>     
     </div>
     <hr/>
     <h1 class="titleBanner">Dona sangue o plasma</h1>
-    <h3>Per iniziare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
+    <h3 class="titleTextBanner">Per iniziare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
     <div class="flipflop">
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
           <div class="front">
-            <!-- front content -->
             <div>
               <img class="vc_single_image-img " src="../assets/name.svg" alt="Donatore" title="Donatore" /><br/><br/>
               <h1 class="titleBanner">18 - 60 anni</h1><br/><br/>
-              <p>Età per iniziare a donare.</p>
+              <p class="infoFlip">Età per iniziare a donare.</p>
             </div>
           </div>
           <div class="back" >
             <!-- back content -->
             <div class="text">
               <h1 class="titleBanner">PER I DONATORI PERIODICI</h1><br/><br/>
-              <p>La donazione può essere consentita fino a 60 anni, previa valutazione clinica del medico.</p>
+              <p class="infoFlip">La donazione può essere consentita fino a 60 anni, previa valutazione clinica del medico.</p>
             </div>
           </div>
         </div>
@@ -35,7 +39,7 @@
             <div>
               <img class="vc_single_image-img " src="../assets/weight-scale.svg" alt="Peso Donatore" title="Peso Donatore" /><br/><br/>
               <h1 class="titleBanner">50 kg</h1><br/><br/>
-              <p>Peso minimo necessario.</p>
+              <p class="infoFlip">Peso minimo necessario.</p>
             </div>
           </div>
           <div class="back">
@@ -54,14 +58,14 @@
             <div>
               <img class="vc_single_image-img " src="../assets/heart.svg" alt="Donatore" title="Donatore" /><br/>
               <h1 class="titleBanner">Buono stato di salute</h1><br/><br/>
-              <p>Il donatore deve godere di un buono stato di salute per iniziare a donare.</p>
+              <p class="infoFlip">Il donatore deve godere di un buono stato di salute per iniziare a donare.</p>
             </div>
           </div>
           <div class="back">
             <!-- back content -->
             <div class="text">
               <h1 class="titleBanner">VALORI NELLA NORMA</h1><br/><br/>
-              <p>Pressione arteriosa nella norma, frequenza cardiaca tra i 50 e 100 battiti al minuto ed 
+              <p class="infoFlip">Pressione arteriosa nella norma, frequenza cardiaca tra i 50 e 100 battiti al minuto ed 
                 emoglobina con valori minimi necessari. </p>
             </div>
           </div>
@@ -72,7 +76,9 @@
     <div class="news">
       <div class="innerNews">
         <div>
-          <div class="relatedNews"><p class="title">News correlate</p></div>
+          <div class="relatedNews">
+            <p class="title">News correlate</p>
+          </div>
           <div class="event">
             <b-carousel
               id="carousel-1"
@@ -88,7 +94,7 @@
               <b-carousel-slide>
                 <template #img>
                   <img
-                    class="d-block img-fluid w-100"
+                    class="d-block img-fluid w-100 hoverImg"
                     width="0"
                     height="0"
                     src="../assets/40anniversario2.jpg"
@@ -112,10 +118,17 @@
             </b-carousel>
           </div>
         </div>
-        <div class="innerNews">
-          <div class="relatedNews"><p class="title">Eventi sul territorio</p></div>
-        </div>
+    </div>
+
+    <div class="innerNews">
+      <div class="relatedNews">
+        <p class="title">Eventi sul territorio</p>
       </div>
+      <div class="event">
+        <p>Non ci sono eventi</p>
+      </div>
+    </div>
+      
     </div>
   </div>
 </template>
@@ -148,6 +161,9 @@ export default {
     },
     redirect() {
       this.$router.push('/news')
+    },
+    redirectVaccino() {
+      this.$router.push('/news-vaccino')
     }
   }
 }

@@ -7,6 +7,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500&display=swap')
 
 .container
+  padding-top: 30px
+  .bannerVaccino
+    padding-top: 0.5em
+    padding-bottom: 30px
+    .textBanner
+      margin: 0
+      color: white
+      background-color: #2196F3
+      font-family: 'Montserrat'
+      font-size: 1.3em
+      font-weight: 500
   .flipflop
     display: flex
     justify-content: space-around
@@ -17,30 +28,31 @@
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper 
       transform: rotateY(180deg)
-    
-
     .flip-container, .front, .back 
       width: 320px
       height: 350px
       margin: 10px 0
     
-
       /* flip speed goes here */
       .flipper 
-        
         transition: 0.6s
         transform-style: preserve-3d
         position: relative
       
-
         /* hide back of pane during swap */
         .front, .back 
           backface-visibility: hidden
-          background-color: aliceblue
+          background-color: #0C76BC
           border: 2px solid darkblue
           position: absolute
+          border-radius: 15px
           top: 0
           left: 0
+          .infoFlip
+            color: white
+            font-size: 1.1em
+            margin: 0 auto
+            max-width: 90%
         
 
         /* front pane, placed above back */
@@ -60,7 +72,7 @@
   .news
     margin: 30px 0
     padding: 30px 0
-    background-color: white
+    //background-color: white
     display: flex
     flex-wrap: wrap
     justify-content: space-between
@@ -68,15 +80,19 @@
       width: 48%
       .relatedNews
         background-color: #007DC5
+        padding: 4px
         .title
           color: white
-          font-weight: 600
-          font-size: 1.3em
-      .event
-        background-color: red
-        padding: 30px 0
-        .img
+          margin: 0
+          font-weight: 500
+          font-size: 1.1em
           
   .titleBanner
-  color: darkred
-  font-family: 'Montserrat'
+    color: darkred
+    font-family: 'Montserrat'
+  .titleTextBanner
+    color: darkblue
+    font-family: 'Montserrat'
+
+.hoverImg:hover
+  cursor: pointer
