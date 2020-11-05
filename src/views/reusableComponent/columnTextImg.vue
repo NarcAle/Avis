@@ -43,4 +43,6 @@ export default {
       color: #004A7E
   .img-div
     padding: 30px 0 
+    .imgDonazione
+      width: 100%
 </style>
