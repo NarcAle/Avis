@@ -15,7 +15,7 @@
           <li>I GLOBULI BIANCHI (leucociti)</li>
           <li>LE PIASTRINE (trombociti)</li>
         </ul>
-        <img src="../../assets/grafico_sangue.jpg" alt="grafico_sangue" style="whidth:100%"/><br/>
+        <img src="../../assets/grafico_sangue.jpg" alt="grafico_sangue" style="width:100%"/><br/>
       </div>
       <p class="text2">Il sangue inoltre si distingue in arterioso e venoso</p>
       <ul class="text2">
@@ -39,11 +39,11 @@
           zuccheri, grassi, sali minerali, ormoni, vitamine, anticorpi e fattori della coagulazione. <br/>
           Dal plasma donato si possono ottenere, mediante frazionamento industriale, alcune sostante importantissime ai fini trasfusionali:</p>
         <ul class="text2">
-          <li>1. Albumina, trasporta diverse componenti del sangue e sostanze nutritive. È una proteina utilizzata nel trattamento di alcune
+          <li>Albumina, trasporta diverse componenti del sangue e sostanze nutritive. È una proteina utilizzata nel trattamento di alcune
             malattie del fegato e dei reni (cirrosi, nefrosi, ecc.), per la cura di stati patologici gravi come lo shock da ustioni, da tra uma, ecc.</li>
-          <li>2. Immunoglobuline, sostanze protettive o anticorpi che si sviluppano normalmente a contatto con diversi agenti estranei all’organismo,
+          <li>Immunoglobuline, sostanze protettive o anticorpi che si sviluppano normalmente a contatto con diversi agenti estranei all’organismo,
             o dopo vaccinazioni. Vengono utilizzate in vari tipi di difetti immunologici o per patologie autoimmunitarie.</li>
-          <li>3. Fattori della coagulazione (VIII e IX), fondamentali per i pazienti affetti da emofilia A e B che hanno una carenza nel
+          <li>Fattori della coagulazione (VIII e IX), fondamentali per i pazienti affetti da emofilia A e B che hanno una carenza nel
             sangue di fattore VIII o IX. Negli ultimi anni l’uso di questi preparati altamente purificati e assai efficaci ha permesso
             una vita pressochè normale a chi soffre di emofilia.</li>
         </ul>
@@ -53,7 +53,7 @@
         <h4 class="text2 color">Le funzioni del sangue</h4>
         <p class="text2">Il sangue esercita numerose funzioni all’interno dell’organismo:</p>
         <ul class="text2">
-          <li>Respiratoria (scambio ossigeno/anidride carbonica).</li>
+          <li>Respiratoria (scambio ossigeno/ anidride carbonica).</li>
           <li>Nutritiva (porta a tutte le cellule le sostanze nutrienti).</li>
           <li>Escretrice (raccoglie i rifiuti, che convoglia agli organi, destinati a eliminarli).</li>
           <li>Termoregolatrice (regola il calore).</li>
