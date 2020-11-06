@@ -4,7 +4,7 @@
     <hr>
     <div class="text map_and_description">
       <h1 class="donazione smaller"> Diventa anche tu un donatore </h1><br/>
-      <img class="join" src="../../assets/diventa-donatore.jpg" alt="diventa-donatore"/><br/>
+      <img class="join" src="../../assets/diventa-donatore.jpg" alt="diventa-donatore" style="width:100%"/><br/>
     </div>
     <div class="textInformativo">
       <h3 class="text2 color">Il sangue è vita </h3>

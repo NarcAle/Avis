@@ -13,11 +13,11 @@
             <h3 class="titlePercheDonare">Perchè donare:</h3> <br/>
             <div>
                 <only-text :title=titleOnlyText2  :title2=titleOnly2 :text=textOnlyText2></only-text>
-                <img class="donare" src="../../assets/donare2.jpg"/>
+                <img class="donare" src="../../assets/donare2.jpg" style="width:100%"/>
             </div>
             <div>
                 <only-text :title=titleOnlyText3 :title2=titleOnly22 :text=textOnlyText3></only-text>
-                <img class="donare" src="../../assets/donazione-sangue.jpg"/>
+                <img class="donare" src="../../assets/donazione-sangue.jpg" style="width:100%"/>
             </div>
         </div>
     </div>

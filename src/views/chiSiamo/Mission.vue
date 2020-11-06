@@ -48,10 +48,15 @@ import listable from '../reusableComponent/listableText.vue'
     margin: 0 auto
     padding: 1.5em 0
     .text2
-      padding-left: 1.5em
+      padding-left: 0
       font-family: 'Montserrat'
       font-size: 1.3em
       text-align: justify
     .color
       color: red
+@media (min-width: 992px)
+  .listableText
+    .uniqueBlock
+      .text2
+        padding-left: 1.5em
 </style>

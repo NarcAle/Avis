@@ -62,7 +62,7 @@ import onlyText from '../reusableComponent/onlyText.vue'
         " e frammenti, derivanti dalla volontà di persone che nel tempo hanno cercato di dare un contributo alla comunità.",
         roles: [
           { Ruolo: "Presidente", Nome: 'Daniele Boccali' },
-          { Ruolo: "Vice Presidente", Nome: '' },
+          //{ Ruolo: "Vice Presidente", Nome: '' },
           { Ruolo: "Tesoriere", Nome: 'Sergio Morelli' },
           { Ruolo: "Segretario", Nome: 'Dario Cerami' },
           { Ruolo: "Consigliere", Nome: 'Diana Dall\'Agata' },

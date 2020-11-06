@@ -9,7 +9,7 @@
       <p class="text2">{{fiveText}} <b class="darkblue">{{fvPartTwo}}</b>{{fvPartThree}}</p>
     </div>
     <div class="img-div">
-      <img class="imgDonazione" src="../../assets/donare.jpg"/>
+      <img class="imgDonazione" src="../../assets/donare.jpg" style="width:100%"/>
     </div>
   </div>
 </template>
@@ -29,18 +29,27 @@ export default {
     margin: 0 auto
     padding: 1.5em 0
     .text2
-      padding-left: 1.5em
+      padding-left: 0
       font-family: 'Montserrat'
       font-size: 1.3em
       text-align: left
+      font-weight: 500
     .color
       color: red
+      font-size: 1.5em
     .blue
       color: #39F
+      font-weight: 600
     .darkblue
       color: #004A7E
   .img-div
     padding: 30px 0 
     .imgDonazione
       width: 100%
+
+@media (min-width: 992px)
+  .donazione_
+    .divText
+      .text2
+        padding-left: 1.5em 
 </style>
