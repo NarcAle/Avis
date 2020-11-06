@@ -20,23 +20,30 @@ export default {
 
 <style lang="sass" scoped>
 .onlyTextBlock
-  .uniqueBlock
-    width: 95%
-    margin: 0 auto
-    padding: 1.5em 0
-    .center
-      text-align: center !important
-    .text2
-      padding-left: 1.5em
-      font-family: 'Montserrat'
-      font-size: 1.3em
-      text-align: justify
-    .color
-      font-size: 1.5em
-      color: red
-      font-weight: 500
-    .darkblue
-      color: #004A7E
-    .title2
-      color: lightblue
+    .uniqueBlock
+      width: 95%
+      margin: 0 auto
+      padding: 1.5em 0
+      .center
+        text-align: center !important
+      .text2
+        padding-left: 0
+        font-family: 'Montserrat'
+        font-size: 1.3em
+        text-align: justify
+      .color
+        font-size: 1.5em
+        color: red
+        font-weight: 500
+      .darkblue
+        color: #004A7E
+      .title2
+        color: lightblue
+
+@media (min-width: 992px)
+  .onlyTextBlock
+    .uniqueBlock
+      .center
+      .text2
+        padding-left: 1.5em
 </style>

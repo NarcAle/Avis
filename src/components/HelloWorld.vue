@@ -141,7 +141,7 @@ export default {
     return {
       titleBanner: "Dona il tuo 5x1000 ad AVIS Forlimpopoli",
       onlyText: "Anche quest'anno potrai sostenere con la tua dichiarazione dei redditi",
-      colored: " AVIS NAZIONALE.",
+      colored: " AVIS NAZIONALE. ",
       text12: "È facile e non comporta alcuna spesa aggiuntiva.\n"+
       "I modelli per la dichiarazione dei redditi CU, 730 e UNICO hanno uno spazio dedicato al 5 per mille, in cui puoi "+
       "firmare indicando il codice fiscale di AVIS Forlimpopoli 80014660403 nella sezione relativa al Sostegno degli enti "+ 
