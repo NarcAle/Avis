@@ -15,7 +15,7 @@
           <li>I GLOBULI BIANCHI (leucociti)</li>
           <li>LE PIASTRINE (trombociti)</li>
         </ul>
-        <img src="../../assets/grafico_sangue.jpg" alt="grafico_sangue" style="width:100%"/><br/>
+        <img class="grafico" src="../../assets/grafico_sangue.jpg" alt="grafico_sangue"/><br/>
       </div>
       <p class="text2">Il sangue inoltre si distingue in arterioso e venoso</p>
       <ul class="text2">
