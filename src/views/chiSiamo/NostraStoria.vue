@@ -17,8 +17,8 @@ import onlyText from '../reusableComponent/onlyText.vue'
       return {
         onlyText: "Un percorso di ",
         text12: " è molto lungo e se ci pensiamo un bambino in un periodo simile diventa adulto, forma una famiglia,"+
-        " si costruisce una carriera lavorativa, ha dei figli... anche la nostra sezione cresciuta, ha creato relazioni,"+
-        " ha fa to notare la sua presenza sul territorio, ha organizzato eventi, iniziative, partecipato e collaborato con"+
+        " si costruisce una carriera lavorativa, ha dei figli... anche la nostra sezione è cresciuta, ha creato relazioni,"+
+        " ha fatto notare la sua presenza sul territorio, ha organizzato eventi, iniziative, partecipato e collaborato con"+
         " altre organizzazioni di volontariato, con istituzioni civili, religiose per il raggiungimento di obiettivi comuni"+
         " e sempre volti a portare beneficio alla comunità nella quale operiamo.",
         text12_2: "alla volontà del gruppo dirigente, ma sempre e in primo luogo grazie al sostegno ed all'impegno dei donatori"+

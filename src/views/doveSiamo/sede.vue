@@ -9,7 +9,8 @@
         <p class="address">{{address}}<br/>
           {{CAP}}, {{city}}  <br/>
           {{TEL}}: {{number}} <br/>
-          {{CEL}}: {{cellNum}} <br/>
+          {{CEL}}: {{cellNum}} <br/><br/>
+          {{ORARIO}}:<br/> {{ora}}<br/><br/>
           {{MAIL}}: <a href="mailto:avisforlimpopoli@gmail.com"> {{mail}}</a><br/>
           {{PEC}}: <a href="mailto:forlimpopoli.comunale@pec.avis.it"> {{pec}}</a>
         </p>
@@ -34,6 +35,8 @@ export default {
       TEL: "Tel.",
       CEL: "Cel.",
       MAIL: "Email.",
+      ORARIO: "Orario di apertura",
+      ora: "Ogni mercoledì \ndalle 17.00  alle 19.00",
       number: "0543 733265",
       cellNum: "3888033323",
       mail: "avisforlimpopoli@gmail.com",

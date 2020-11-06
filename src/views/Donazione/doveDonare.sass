@@ -1,17 +1,29 @@
 .map_and_descriptionX
   display: flex
-  justify-content: space-around
+  justify-content: center
   flex-wrap: wrap
+  justify-content: column
   //background-color: aliceblue
   .divMiddle
+    margin: 20px 0
     padding: 20px 0
-    width: 48%
+    width: max-content //48%
     background: cornsilk
     height: max-content
     .divVieni
       color: darkblue
-      font-size: 1.1em
+      font-size: 1.3em
       font-family: 'Montserrat'
     .titleBig
       font-size: 1.2em
-    
+    p 
+      font-size: 1.1em
+
+@media (min-width: 992px)
+  .map_and_descriptionX
+    display: flex
+    justify-content: space-around
+    justify-content: row
+    .divMiddle
+      padding: 20px 0
+      width: 48%

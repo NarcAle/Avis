@@ -125,7 +125,7 @@
         <p class="title">Eventi sul territorio</p>
       </div>
       <div class="event">
-        <p>Non ci sono eventi</p>
+        <p style="max-width:95%">Al momento gli eventi sono sospesi a seguito delle recenti restrizioni COVID-19.</p>
       </div>
     </div>
       
@@ -141,7 +141,7 @@ export default {
     return {
       titleBanner: "Dona il tuo 5x1000 ad AVIS Forlimpopoli",
       onlyText: "Anche quest'anno potrai sostenere con la tua dichiarazione dei redditi",
-      colored: " AVIS NAZIONALE. ",
+      colored: " AVIS COMUNALE FORLIMPOPOLI. ",
       text12: "È facile e non comporta alcuna spesa aggiuntiva.\n"+
       "I modelli per la dichiarazione dei redditi CU, 730 e UNICO hanno uno spazio dedicato al 5 per mille, in cui puoi "+
       "firmare indicando il codice fiscale di AVIS Forlimpopoli 80014660403 nella sezione relativa al Sostegno degli enti "+ 
