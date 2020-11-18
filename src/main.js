@@ -16,7 +16,6 @@ const store = new Vuex.Store({
     widthWindow: window.screen.width
   }
 });
-console.log(store.state.widthWindow)
 
 new Vue({
   router,

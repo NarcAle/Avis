@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="navbar" toggleable="lg" type="dark" >
+    <b-navbar class="container navbar" toggleable="lg" type="dark" >
       <b-navbar-brand v-if="this.$store.state.widthWindow <= 992" to="/">{{navhome2}}</b-navbar-brand>
       <b-navbar-brand v-if="this.$store.state.widthWindow > 992" to="/">{{navhome}}</b-navbar-brand>
 
