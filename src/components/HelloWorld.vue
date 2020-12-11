@@ -2,7 +2,7 @@
   <div class="container">
     <div class="bannerVaccino">
       <div><p class="textBanner">In evidenza</p></div>
-      <img src="../assets/vaccino-antinfluenza.jpg" @click="redirectVaccino" class="hoverImg" style="width:100%"/>    
+      <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg" style="width:100%"/>    
     </div>
     <hr/>
     <div class="banner5X1000">
