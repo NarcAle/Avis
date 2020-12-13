@@ -2,7 +2,8 @@
   <div class="container">
     <div class="bannerVaccino">
       <div><p class="textBanner">In evidenza</p></div>
-      <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg" style="width:100%"/>    
+      <hr/>
+      <img src="../assets/Natale.jpeg" class="hoverImg Natale"/>    
     </div>
     <hr/>
     <div class="banner5X1000">
@@ -161,9 +162,6 @@ export default {
     },
     redirect() {
       this.$router.push('/news')
-    },
-    redirectVaccino() {
-      this.$router.push('/news-vaccino')
     }
   }
 }

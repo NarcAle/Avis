@@ -22,7 +22,7 @@
             <b-dropdown-item to="dove_donare">Dove Donare</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item to="unisciti_a_noi">Unisciti a noi</b-nav-item> 
-          <!--<b-nav-item to="news_media">News e media</b-nav-item> -->
+          <b-nav-item to="news_media">News e media</b-nav-item>
           <b-nav-item to="sede">La nostra sede</b-nav-item> 
         </b-navbar-nav>
       </b-collapse>
