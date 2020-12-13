@@ -97,13 +97,19 @@
 .hoverImg:hover
   cursor: pointer
 
-.Natale
-  width: 100%
+.styleImg
   display: flex
+  justify-content: space-evenly
   flex-wrap: wrap
-  border: 1px solid black
-  border-radius: 10px
+  .Natale
+    margin-top: 10px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    border: 1px solid black
+    border-radius: 10px
 
 @media screen and ( min-width: 992px ) 
-  .Natale
-    width: 30%
+  .styleImg
+    .Natale
+      width: 30%
