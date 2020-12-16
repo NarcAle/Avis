@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div>
+      <img src="../assets/BabboNatale.png" class="hoverImg imgNatale"/>  
+    </div>
     <div class="bannerVaccino">
       <div><p class="textBanner">In evidenza</p></div>
       <hr/>
