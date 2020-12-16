@@ -11,7 +11,8 @@
     <hr/>
     <div class="banner5X1000">
       <img src="../assets/Banner-5x1000.png" class="hoverImg" style="width:100%"/>
-      <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12></only-text>     
+      <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12
+      :coloredText2=coloredText2 :text3=text13></only-text>     
     </div>
     <hr/>
     <h1 class="titleBanner">Dona sangue o plasma</h1>
@@ -148,9 +149,11 @@ export default {
       colored: " AVIS COMUNALE FORLIMPOPOLI. ",
       text12: "È facile e non comporta alcuna spesa aggiuntiva.\n"+
       "I modelli per la dichiarazione dei redditi CU, 730 e UNICO hanno uno spazio dedicato al 5 per mille, in cui puoi "+
-      "firmare indicando il codice fiscale di AVIS Forlimpopoli 80014660403 nella sezione relativa al Sostegno degli enti "+ 
+      "firmare indicando il codice fiscale di",
+      coloredText2: "AVIS Forlimpopoli 80014660403",
+      text13: "nella sezione relativa al Sostegno degli enti"+ 
       "di volontariato. Anche chi non compila la dichiarazione dei redditi, ovvero chi ha solo il modello CU fornito dal "+
-      "datore di lavoro o dall’ente erogatore della pensione, può destinare il 5 per mille.\n\nGrazie da AVIS Forlimpopoli!"
+      "datore di lavoro o dall’ente erogatore della pensione, può destinare il 5 per mille.\n\nGrazie da AVIS Forlimpopoli!",
     }
   },
   components: {
