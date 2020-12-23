@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div style="padding: 30px 0">
-      <img src="../../assets/40anniversario2.jpg"/>
+      <img alt="Anniversario" src="../../assets/40anniversario2.jpg"/>
       <onlyText :text=text />
     </div>
   </div>

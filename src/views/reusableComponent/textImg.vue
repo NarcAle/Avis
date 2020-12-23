@@ -7,7 +7,7 @@
 
       <h3 class="text2 color">{{titleSectionTwo}}</p></h3>
       <br/>
-      <img class="come_donare" src="../../assets/come_donare1.png" style="width:100%"/>
+      <img class="come_donare" src="../../assets/come_donare1.png" alt="Come Donare" style="width:100%"/>
       <!--<img class="come_donare" :src="imgPath"/>-->
     </div>
   </div>

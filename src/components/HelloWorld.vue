@@ -2,19 +2,19 @@
   <div class="container">
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
-      <img src="../assets/BabboNatale.png" class="hoverImg imgNatale"/>  
+      <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <img src="../assets/Natale.jpeg" class="hoverImg Natale"/>    
-        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale"/>  
+        <img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>    
+        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
       </div>
     </div>
     <hr/>
     <div class="banner5X1000">
-      <img src="../assets/Banner-5x1000.png" class="hoverImg" style="width:100%"/>
+      <img src="../assets/Banner-5x1000.png" class="hoverImg" style="width:100%" alt="5x1000"/>
       <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12
       :coloredText2=coloredText2 :text3=text13></only-text>     
     </div>

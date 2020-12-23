@@ -3,7 +3,7 @@
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
-      <img src="../../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg" style="width: 50%: "/>    
+      <img src="../../assets/vaccinoR.jpg" alt="vaccino" @click="redirectVaccino" class="hoverImg" style="width: 50%: "/>    
     </div>
     <hr/>
 

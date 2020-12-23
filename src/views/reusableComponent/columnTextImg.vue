@@ -9,7 +9,7 @@
       <p class="text2">{{fiveText}} <b class="darkblue">{{fvPartTwo}}</b>{{fvPartThree}}</p>
     </div>
     <div class="img-div">
-      <img class="imgDonazione" src="../../assets/donare.jpg" style="width:100%"/>
+      <img class="imgDonazione" src="../../assets/donare.jpg" alt="Donare" style="width:100%"/>
     </div>
   </div>
 </template>
