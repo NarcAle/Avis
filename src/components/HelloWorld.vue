@@ -1,10 +1,11 @@
 <template>
   <div class="container">
     <div>
+      <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale"/>  
     </div>
     <div class="bannerVaccino">
-      <div><p class="textBanner">In evidenza</p></div>
+      <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
         <img src="../assets/Natale.jpeg" class="hoverImg Natale"/>    
@@ -19,7 +20,7 @@
     </div>
     <hr/>
     <h1 class="titleBanner">Dona sangue o plasma</h1>
-    <h3 class="titleTextBanner">Per iniziare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
+    <h3 class="titleTextBanner">Per iniziare a donare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
     <div class="flipflop">
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
@@ -27,7 +28,7 @@
             <div>
               <img class="vc_single_image-img " src="../assets/name.svg" alt="Donatore" title="Donatore" /><br/><br/>
               <h1 class="titleBanner">18 - 60 anni</h1><br/><br/>
-              <p class="infoFlip">Età per iniziare a donare.</p>
+              <p class="infoFlip">Età necessaria per iniziare a donare.</p>
             </div>
           </div>
           <div class="back" >
@@ -47,13 +48,14 @@
             <div>
               <img class="vc_single_image-img " src="../assets/weight-scale.svg" alt="Peso Donatore" title="Peso Donatore" /><br/><br/>
               <h1 class="titleBanner">50 kg</h1><br/><br/>
-              <p class="infoFlip">Peso minimo necessario.</p>
+              <p class="infoFlip">Peso minimo necessario del donatore per effettuare una donazione.</p>
             </div>
           </div>
           <div class="back">
             <!-- back content -->
             <div class="text">
               <h1 class="titleBanner">PER UOMINI E DONNE</h1>
+              <p class="infoFlip">Questa regola è valida per qualunque donatore, indipendentemente dal suo sesso.</p>
             </div>
           </div>
         </div>
@@ -73,7 +75,7 @@
             <!-- back content -->
             <div class="text">
               <h1 class="titleBanner">VALORI NELLA NORMA</h1><br/><br/>
-              <p class="infoFlip">Pressione arteriosa nella norma, frequenza cardiaca tra i 50 e 100 battiti al minuto ed 
+              <p class="infoFlip">La pressione arteriosa del donatore deve essere nella norma, la sua frequenza cardiaca tra i 50 e 100 battiti al minuto ed 
                 emoglobina con valori minimi necessari. </p>
             </div>
           </div>
@@ -112,7 +114,7 @@
                 </template>
               </b-carousel-slide>
 
-              <b-carousel-slide>
+              <!--<b-carousel-slide>
                 <template #img>
                   <img
                     class="d-block img-fluid w-100"
@@ -122,7 +124,7 @@
                     alt="image slot"
                   >
                 </template>
-              </b-carousel-slide>
+              </b-carousel-slide>-->
             </b-carousel>
           </div>
         </div>
@@ -133,7 +135,9 @@
         <p class="title">Eventi sul territorio</p>
       </div>
       <div class="event">
-        <p style="max-width:95%">Al momento gli eventi sono sospesi a seguito delle recenti restrizioni COVID-19.</p>
+        <p style="max-width:95%; margin:10px auto; text-align:justify">Al momento gli eventi sono sospesi a seguito delle recenti restrizioni COVID-19. </br>
+          Speriamo di poter ritornare il prima possibile e di poter organizzare nuovi eventi.
+        </p>
       </div>
     </div>
       
