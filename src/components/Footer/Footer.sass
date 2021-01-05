@@ -7,25 +7,38 @@
     font-family: 'Montserrat', cursive
     font-size: 0.8em
     font-weight: 500
+  .smaller
+    font-size: 0.5em !important
   .linkSite
     color: darkred
-  .social-links
-    margin: 0 0 40px 0
-    a
-      font-size: 18px
-      display: inline-block
-      background: #0563bb
-      color: #fff
-      line-height: 1
-      padding: 8px 0
-      margin-right: 4px
-      border-radius: 50%
-      text-align: center
-      width: 36px
-      height: 36px
-      transition: 0.3s
-    a:hover
-      background: #0678e3
-      color: #fff
-      text-decoration: none
-
+  
+  .grid-container
+    display: grid
+    grid-template-columns: 40% 60%
+    grid-gap: 20px
+    border: transparent
+    background: transparent
+    .social-links
+      padding: 0 0 40px 0
+      margin: 0 auto
+      max-width: 50%
+      a
+        font-size: 18px
+        display: inline-block
+        background: #0563bb
+        color: #fff
+        line-height: 1
+        padding: 8px 0
+        margin-right: 4px
+        border-radius: 50%
+        text-align: center
+        width: 36px
+        height: 36px
+        transition: 0.3s
+      a:hover
+        background: #0678e3
+        color: #fff
+        text-decoration: none
+    .textOnly
+      max-width: 50%
+      margin: 0 auto

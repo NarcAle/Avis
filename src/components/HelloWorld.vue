@@ -19,6 +19,9 @@
       :coloredText2=coloredText2 :text3=text13></only-text>     
     </div>
     <hr/>
+    <only-text title2="IL PROBLEMA" :text=textHomeText></only-text>  
+    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>   
+    <only-text title2="LA SOLUZIONE"></only-text> 
     <h1 class="titleBanner">Dona sangue o plasma</h1>
     <h3 class="titleTextBanner">Per iniziare a donare è sufficiente rispettare alcuni semplici requisiti</h3><br/><br/>
     <div class="flipflop">
@@ -161,6 +164,9 @@ export default {
       text13: "nella sezione relativa al Sostegno degli enti"+ 
       "di volontariato. Anche chi non compila la dichiarazione dei redditi, ovvero chi ha solo il modello CU fornito dal "+
       "datore di lavoro o dall’ente erogatore della pensione, può destinare il 5 per mille.\n\nGrazie da AVIS Forlimpopoli!",
+      textHomeText: "Il sangue umano è un prodotto naturale, non riproducibile artificialmente e indispensabile alla vita.\n"+
+      "Indispensabile nei servizi di primo soccorso, in chirurgia nella cura di alcune malattie tra le quali quelle oncologiche e nei trapianti.\n"+
+      "Pensa di essere tu al loro posto."
     }
   },
   components: {
