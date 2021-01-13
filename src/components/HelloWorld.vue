@@ -1,9 +1,10 @@
 <template>
   <div class="container">
+    <!-- BANNER NATALE
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
-    </div>
+    </div>-->
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
