@@ -67,7 +67,7 @@ import onlyText from '../reusableComponent/onlyText.vue'
           { Ruolo: "Segretario", Nome: 'Dario Cerami' },
           { Ruolo: "Consigliere", Nome: 'Diana Dall\'Agata' },
           { Ruolo: "Consigliere", Nome: 'Vittorio Bagattoni' },
-          { Ruolo: "Consigliere", Nome: 'Giuliano Sansolini' },
+          { Ruolo: "Consigliere", Nome: 'Giuliano Santolini' },
           { Ruolo: "Consigliere", Nome: 'Bruno Matteucci' },
           { Ruolo: "Consigliere", Nome: 'Riccardo Bacchi' },
           { Ruolo: "Consigliere", Nome: 'Franco Mauro Matteucci' },

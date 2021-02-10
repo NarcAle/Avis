@@ -117,18 +117,30 @@
                   >
                 </template>
               </b-carousel-slide>
-
-              <!--<b-carousel-slide>
+              <b-carousel-slide>
+                <template #img>
+                  <img
+                    class="d-block img-fluid w-100 hoverImg"
+                    width="500"
+                    height="500"
+                    src="../assets/telethonCuore.jpg"
+                    alt="image slot"
+                    @click="redirectToArticle"
+                  >
+                </template>
+              </b-carousel-slide>
+              <b-carousel-slide>
                 <template #img>
                   <img
                     class="d-block img-fluid w-100"
-                    width="0"
-                    height="0"
-                    src="../assets/40anniversario2.jpg"
+                    width="500"
+                    height="500"
+                    src="../assets/segavecchia.jpg"
                     alt="image slot"
+                    @click="redirectToArticleSV"
                   >
                 </template>
-              </b-carousel-slide>-->
+              </b-carousel-slide>
             </b-carousel>
           </div>
         </div>
@@ -182,6 +194,12 @@ export default {
     },
     redirect() {
       this.$router.push('/news')
+    },
+    redirectToArticle(){
+      window.open('https://www.ilrestodelcarlino.it/forl%C3%AC/cronaca/forlimpopoli-donati-700-pacchi-1.5874766')
+    },
+    redirectToArticleSV(){
+      window.open('https://www.segavecchia.it/note.php?note_id=2462221907223205##cookieOk')
     },
     redirectVaccino() {
       this.$router.push('/news-vaccino')

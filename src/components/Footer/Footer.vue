@@ -7,17 +7,16 @@
         </a>
       </div>
       <div class="textOnly">
-        AVIS COMUNALE FORLIMPOPOLI - ODV <br/>
-        Via Duca D'Aosta,33 - Forlimpopoli <br/>
-        Tel. 0543 733265 - Cel. 3888033323<br/>
-        avisforlimpopoli@gmail.com<br/>
-        forlimpopoli.comunale@pec.avis.it
+        <p class="footerText">AVIS COMUNALE FORLIMPOPOLI - ODV </br>
+        Via Duca D'Aosta,33 - Forlimpopoli</br>
+        Tel. 0543 733265 - Cel. 3888033323</p>
       </div>
     </div>
     <hr/>
-    <span class="owner smaller">Quest'opera è distribuita con licenza MIT</span>
-    <hr/> 
-    <span class="owner">Owner and creator: <a class="linkSite" href="https://narcale.github.io">  Narcale</a></span>
+    <div class="grid-container spaceBtw"> 
+      <span class="owner smaller">Quest'opera è distribuita con licenza MIT</span>
+      <span class="owner">Owner and creator: <a class="linkSite" href="https://narcale.github.io">  Narcale</a></span>
+    </div>
   </div>
 </template>
 
