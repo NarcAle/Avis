@@ -5,6 +5,11 @@
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>-->
+    <!-- BANNER PASQUA -->
+    <div>
+      <h1 class="titleBanner"> Dalla Nostra associazione </h1>
+      <img src="../assets/pasqua.jpg" class="hoverImg imgNatale" alt="Buona Pasqua"/>  
+    </div>
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
@@ -14,6 +19,29 @@
       </div>
     </div>
     <hr/>
+    <div class="newApp">
+      <h3 class="darkblue">Donare sangue è sempre importante e oggi più semplice con la prenotazione</h3>
+      <div> 
+        <p class="justifyText">
+          Hai ricevuto l’SMS di convocazione alla donazione? <br/>
+          Prenota la tua donazione di sangue o plasma direttamente ONLINE, collegandoti al sito internet
+          <a href="www.avisforli.it">www.avisforli.it</a>, cliccando sull’apposito pulsante rosso presente nell’home page, si verrà collegati direttamente all’Agenda di prenotazione.
+          Oppure, al link <a href="https://udrforli.mesis.it/"> https://udrforli.mesis.it/</a> si accede direttamente all’Agenda online.
+          É così possibile prenotare la propria donazione di sangue o plasma presso i 3 punti di raccolta: Forlì, Modigliana e Santa Sofia. E’possibile prenotare al massimo con 2 giorni di anticipo rispetto a quello desiderato. 
+          Occorre inserire i dati richiesti si procede alla prenotazione che verrà confermata tramite una mail nella quale è riportato il codice di prenotazione, che sarà utile per eventuali modifiche dell’appuntamento. 
+          Quanto specificato è valido sia per i donatore che per gli aspiranti donatori.
+          <br/>
+          Prenotare la donazione è importante: ci aiuta a programmare meglio la raccolta.
+        </p>
+        <p class="justifyText">I vantaggi della prenotazione:</p>
+        <ul class="justifyText listable">
+          <li>Eliminazione tempi di attesa telefonici</li>
+          <li>Scelta precisa della data e orario della donazione</li>
+          <li>Maggior efficienza della struttura</li>
+          <li>Recupero risorse</li>
+        </ul>
+      </div>
+    </div>
     <div class="banner5X1000">
       <img src="../assets/Banner-5x1000.png" class="hoverImg" style="width:100%" alt="5x1000"/>
       <only-text :title2=titleBanner :text=onlyText :coloredText=colored :text12=text12
