@@ -5,11 +5,12 @@
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>-->
-    <!-- BANNER PASQUA -->
+    <!-- BANNER PASQUA
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/pasqua.jpg" class="hoverImg imgNatale" alt="Buona Pasqua"/>  
     </div>
+     -->
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
