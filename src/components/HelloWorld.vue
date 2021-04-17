@@ -11,6 +11,42 @@
       <img src="../assets/pasqua.jpg" class="hoverImg imgNatale" alt="Buona Pasqua"/>  
     </div>
      -->
+
+    <div class="assemblea">
+      <p class="location">Forlimpopoli, 09/04/2021</p>
+      <h4 class="what">Assemblea dei soci avis 02/05/2021 ore 10.00</h4>
+      <p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>
+      Carissimo/a ti invito a partecipare all'Assemblea Annuale Ordinaria dei soci 
+      AVIS che si terrà in Piazza Fratti a Forlimpopoli (nel cortile interno della Rocca all'apeno) 
+      il giorno 01 maggio 2021 alle ore 05.00 in prima convocazione ed in seconda convocazione il giorno 
+      <b>02/05/2021</b> alle ore 10,00. In caso di pioggia il tutto sani rimandato al giorno 09 maggio c.a. 
+      con gli stessi orari e luogo.</p>
+      <p class="center">ORDINE DEL GIORNO</p>
+      <ul class="listDecimal">
+        <li>Nomina Segretario dell'assemblea;</li>
+        <li>Insediamento commissione elettorale;</li>
+        <li>Proposta numero dei Consiglieri del nuovo Consiglio;</li>
+        <li>Presentazione della Relazione del Consiglio dell'attività svolta e futura;</li>
+        <li>Presentazione relazione bilancio consuntivo 2020 e preventivo;</li>
+        <li>Interventi concusivi e approvazioni delle relazioni;</li>
+        <li>Nomina dei Delegati Assemblea Provinciale;</li>
+        <li>Inizio votazioni per il nuovo Consiglio;</li>
+        <li>Saluto alle autorità presenti;</li>
+        <li>Conferimento onoreficienze;</li>
+        <li>Saluti conclusivi.</li>
+      </ul>
+      <p class="otherText">RICORDO che in questa assemblea si vota per eleggere il nuovo consiglio direttivo che si occupa di guidare 
+        l'associazione per il quadriennio 2021/2024 e la tua presenza è fondamentale, inoltre sollecito chi 
+        desidera candidarsi ed essere in lista a comunicarlo in segreteria entro domenica 25 aprile (cell.388 8033323) 
+        mail - <a href="avisforlimpopoli@gmail.com">avisforlimpopoli@gmail.com.</a></br></br>
+      * Santa Messa per l'associazione e per defunti Avis sarà celebrata nella Basilica di San. Rufillo domenica 
+      02 Maggio alle ore 17.30.</br></br>
+      Chi fosse impossibilitato a partecipare, come previsto all'art.8.c5 dello statuto in essere, può essere rappresentato
+      da altro socio donatore munito di delega, che trovi unita alla presente. <br/><br/>
+      N.B Per rispettare le normative covid 19 e distanziamento sociale vi invitiamo a presentarvi già dalle ore 9.00 del 
+      02/05/2021 con mascherina.
+      </p>
+    </div>
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
