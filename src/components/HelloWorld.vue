@@ -12,6 +12,7 @@
     </div>
      -->
 
+    <!-- BANNER ASSEMBLEA
     <div class="assemblea">
       <p class="location">Forlimpopoli, 09/04/2021</p>
       <h4 class="what">Assemblea dei soci avis 02/05/2021 ore 10.00</h4>
@@ -47,6 +48,7 @@
       02/05/2021 con mascherina.
       </p>
     </div>
+    -->
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
