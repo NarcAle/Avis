@@ -208,6 +208,17 @@
                   >
                 </template>
               </b-carousel-slide>
+              <b-carousel-slide>
+                <template #img>
+                  <img
+                    class="d-block img-fluid w-100 hoverImg"
+                    width="500"
+                    height="500"
+                    src="../assets/fiorimpopoli1.jpeg"
+                    alt="image slot"
+                  >
+                </template>
+              </b-carousel-slide>
             </b-carousel>
           </div>
         </div>
