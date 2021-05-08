@@ -5,10 +5,10 @@
       <hr/>
       <div class="fiori">
         <img src="../../assets/vaccinoR.jpg" alt="vaccino" @click="redirectVaccino" class="hoverImg"/>  
-        <img src="../../assets/fiorimpopoli1.jpeg" alt="vaccino" @click="redirectVaccino" class="hoverImg"/>  
-        <img src="../../assets/fiorimpopoli2.jpeg" alt="vaccino" @click="redirectVaccino" class="hoverImg"/>  
-        <img src="../../assets/fiorimpopoli3.jpeg" alt="vaccino" @click="redirectVaccino" class="hoverImg"/>  
-        <img src="../../assets/fiorimpopoli4.jpeg" alt="vaccino" @click="redirectVaccino" class="hoverImg"/> 
+        <img src="../../assets/fiorimpopoli1.jpeg" alt="vaccino" class="hoverImg"/>  
+        <img src="../../assets/fiorimpopoli2.jpeg" alt="vaccino" class="hoverImg"/>  
+        <img src="../../assets/fiorimpopoli3.jpeg" alt="vaccino" class="hoverImg"/>  
+        <img src="../../assets/fiorimpopoli4.jpeg" alt="vaccino" class="hoverImg"/> 
       </div>
     </div>
     <hr/>
