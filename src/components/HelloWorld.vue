@@ -49,6 +49,14 @@
       </p>
     </div>
     -->
+
+    <div class="assemblea">
+      <h4 class="what">Avviso ai Donatori AVIS </h4>
+      <p class="otherText">Quest'anno, causa restrizioni COVID-19, l'Associazione AVIS non elargirà il pacco dono.<br/>
+        Ha deciso di devolvere la quota, che sarebbe stata usata per il pacco dono, in beneficenza per le famiglie bisognose.
+      </p>
+    </div>
+    
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>

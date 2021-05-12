@@ -1,30 +1,8 @@
 <template>
   <div class="chi_siamo container">
-    <!--<h1 class="sede">{{titleSoci}}</h1>
-    <hr/>
-    <only-text :text=onlyMyText ></only-text>
-    <h3 class="dati">{{titleDati}}</h3>
-    <div class="list">
-      <p class="textList">Al momento della fondazione la sezione contava:</p>
-      <ul class="startList">
-        <li ><b style="color: red">Donatori: </b> <b style="color: darkblue">n. 70</b></li>
-        <li><b style="color: red">Donazioni: </b> <b style="color: darkblue">n. 280</b></li>
-        <li><b style="color: red">Sangue raccolto: </b> <b style="color: darkblue">70 litri circa</b></li>
-      </ul>
-      <p class="textList">Dati dell'epoca riportano che il fabbisogno dell'ospedale di Forlimpopoli era di 200 lt. di sangue, 25 lt. 
-        di plasma ed altri emoderivati.</p>
-    </div>
-    <h1 class="sede">{{titleNostraStoria}}</h1>
-    <hr/>
-    <div>
-      <only-text :text=onlyText coloredText="40 anni" :text12=text12 ></only-text>
-      <only-text coloredText="Grazie " :text12=text12_2 ></only-text>
-      <only-text coloredText="Grazie " :text12=text12_3 ></only-text>
-    </div>
-    <h1 class="sede">{{titleMission}}</h1>
-    <hr/>-->
     <h1 class="sede">{{titleChiSiamo}}</h1>
     <hr/>
+    <img class="fotoconsiglio" src="../../assets/consiglio.jpeg" alt="Il nuovo consiglio direttivo"/>
     <div class="container we-are">
       <table style="width:100%">
         <tr v-for = "rolesWithMember in roles" >
@@ -62,16 +40,16 @@ import onlyText from '../reusableComponent/onlyText.vue'
         " e frammenti, derivanti dalla volontà di persone che nel tempo hanno cercato di dare un contributo alla comunità.",
         roles: [
           { Ruolo: "Presidente", Nome: 'Daniele Boccali' },
-          //{ Ruolo: "Vice Presidente", Nome: '' },
+          { Ruolo: "Vice Presidente Vicario", Nome: 'Giuliano Santolini' },
+          { Ruolo: "Vice Presidente", Nome: 'Stefania Forti' },
           { Ruolo: "Tesoriere", Nome: 'Sergio Morelli' },
-          { Ruolo: "Segretario", Nome: 'Dario Cerami' },
-          { Ruolo: "Consigliere", Nome: 'Diana Dall\'Agata' },
-          { Ruolo: "Consigliere", Nome: 'Vittorio Bagattoni' },
-          { Ruolo: "Consigliere", Nome: 'Giuliano Santolini' },
+          { Ruolo: "Tesoriere Vicario", Nome: 'Elisa Leoni' },
+          { Ruolo: "Segretario", Nome: 'Vittorio Bagattoni' },
+          { Ruolo: "Segretario Vicario", Nome: 'Dario Cerami' },
+          { Ruolo: "Consigliere Provinciale", Nome: 'Riccardo Bacchi' },
+          { Ruolo: "Rappresentante della Consulta", Nome: 'Valter Capacci' },
           { Ruolo: "Consigliere", Nome: 'Bruno Matteucci' },
-          { Ruolo: "Consigliere", Nome: 'Riccardo Bacchi' },
-          { Ruolo: "Consigliere", Nome: 'Franco Mauro Matteucci' },
-          { Ruolo: "Consigliere", Nome: 'Capacci Valter' },
+          { Ruolo: "Consigliere", Nome: 'Elisa Berni' },
         ],
         titleSoci: "I soci fondatori",
         titleDati: "I dati della raccolta sangue nel 1977 a Forlimpopoli",
