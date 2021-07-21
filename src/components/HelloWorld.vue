@@ -61,7 +61,8 @@
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>    
+        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  -->
+        <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
         <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
       </div>
     </div>
