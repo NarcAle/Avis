@@ -48,7 +48,7 @@
       02/05/2021 con mascherina.
       </p>
     </div>
-    -->
+    
 
     <div class="assemblea">
       <h4 class="what">Avviso ai Donatori AVIS </h4>
@@ -56,13 +56,13 @@
         Ha deciso di devolvere la quota, che sarebbe stata usata per il pacco dono, in beneficenza per le famiglie bisognose.
       </p>
     </div>
-    
+    -->
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  -->
-        <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/>
+        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  
+        <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/>-->
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
         <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
       </div>
