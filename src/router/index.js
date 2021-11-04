@@ -15,6 +15,10 @@ import news from '../views/news/news.vue'
 import newsVaccino from '../views/news/newsVaccino.vue'
 import newsBurioni from '../views/news/newsBurioni.vue'
 import newsMedia from '../components/News/News.vue'
+import FAQ from '../views/news/faq.vue'
+import fiorimpopoliGallery from '../views/news/fiorimpopoli-gallery.vue'
+import dictionary from '../views/news/dictionary.vue'
+import knowThat from '../views/news/knowThat.vue'
 
 Vue.use(VueRouter)
 
@@ -92,6 +96,29 @@ const routes = [
     path: '/news-burioni',
     name: 'news-burioni',
     component: newsBurioni
+  },
+  {
+    path: '/fiorimpopoli-gallery',
+    name: 'fiorimpopoli-gallery',
+    component: fiorimpopoliGallery
+  }
+  ,
+  {
+    path: '/faq',
+    name: 'faq',
+    component: FAQ
+  }
+  ,
+  {
+    path: '/dictionary',
+    name: 'dictionary',
+    component: dictionary
+  }
+  ,
+  {
+    path: '/know-that',
+    name: 'know-that',
+    component: knowThat
   }
 ]
 

@@ -1,5 +1,8 @@
 <template>
   <div class="home">
+    <div>
+      <img src="../assets/banner.jpg" style="margin: 0 auto; max-width:99%"></img>
+    </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>

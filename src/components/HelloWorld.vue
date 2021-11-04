@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    
     <!-- BANNER NATALE
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
