@@ -64,6 +64,7 @@
       <div class="styleImg">
         <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/>-->
+        <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
         <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
       </div>

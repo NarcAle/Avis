@@ -4,7 +4,7 @@
       <div><p class="textBanner">Media Avis Forlimpopoli</p></div>
       <hr/>
       <div class="fiori">
-        <img src="../../assets/vaccinoR.jpg" alt="vaccino" @click="redirectVaccino()" class="hoverImg"/>    
+        <img src="../../assets/vaccinoR.jpg" alt="vaccino" @click="redirectVaccino()" class="hoverImg"/>  
         <img src="../../assets/fiorimpopoli2.jpeg" alt="fiorimpopoli" class="hoverImg fiorimpopoli" @click="gotoGallery()"/>  
         <img src="../../assets/1.png" alt="FAQ" class="hoverImg fiorimpopoli" @click="gotoGallery2()"/>  
         <img src="../../assets/dictionary/1.png" alt="FAQ" class="hoverImg fiorimpopoli" @click="gotoGallery3()"/>  
@@ -32,6 +32,19 @@
   width: 50%
   .fiorimpopoli
     transform: rotate(180deg)
+    
+
+.middle 
+  transition: .5s ease
+  opacity: 0
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  text-align: center
+
+
 
 @media screen and (min-width: 992px)
   .hoverImg
