@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     
-    <!-- BANNER NATALE
+    <!-- BANNER NATALE-->
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
-    </div>-->
+    </div>
     <!-- BANNER PASQUA
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
