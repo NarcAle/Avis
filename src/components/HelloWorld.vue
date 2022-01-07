@@ -1,11 +1,12 @@
 <template>
   <div class="container">
     
-    <!-- BANNER NATALE-->
+    <!-- BANNER NATALE
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>
+    -->
     <!-- BANNER PASQUA
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
@@ -49,15 +50,16 @@
       02/05/2021 con mascherina.
       </p>
     </div>
-    
+    -->
 
     <div class="assemblea">
       <h4 class="what">Avviso ai Donatori AVIS </h4>
-      <p class="otherText">Quest'anno, causa restrizioni COVID-19, l'Associazione AVIS non elargirà il pacco dono.<br/>
-        Ha deciso di devolvere la quota, che sarebbe stata usata per il pacco dono, in beneficenza per le famiglie bisognose.
+        <p class="otherText">Come visibile nell’agenda on-line di prenotazione, dal 2022 si dona anche una domenica ogni mese 
+        <br/>(escluso  Giugno, Luglio, Agosto e Settembre).<br/>
+        Grazie e buon 2022 a tutti.
       </p>
     </div>
-    -->
+    
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
