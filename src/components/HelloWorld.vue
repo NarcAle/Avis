@@ -53,6 +53,14 @@
     -->
 
     <div class="assemblea">
+      <h4 class="what RED">PROGRAMMA 16° EDIZIONE <br/>FIORIMPOPOLI 2022</h4>
+        <p class="otherText">Unisciti ad AVIS nelle giornate del <b>06, 07 e 08 Maggio 2022</b>.<br/>
+        
+        <a href="https://drive.google.com/file/d/1g6-R1HpmxMzzA_nEtx7m4uRSdW4_mrQ6/view?usp=sharing" target="_blank">Visualizza il programma della festa di fiorimpopoli.</a>
+      </p>
+    </div>
+    <br/>
+    <div class="assemblea">
       <h4 class="what">Avviso ai Donatori AVIS </h4>
         <p class="otherText">Come visibile nell’agenda on-line di prenotazione, dal 2022 si dona anche una domenica ogni mese 
         <br/>(escluso  Giugno, Luglio, Agosto e Settembre).<br/>
@@ -255,10 +263,13 @@
 
 <script>
 import onlyText from '../views/reusableComponent/onlyText.vue'
+import VuePdfEmbed from 'vue-pdf-embed/dist/vue2-pdf-embed'
 
 export default {
   data() {
     return {
+      source1: '../locales/PROGRAMMA_FIORIMPOPOLI_2022.pdf',
+      publicPath: process.env.BASE_URL,
       titleBanner: "Dona il tuo 5x1000 ad AVIS Forlimpopoli",
       onlyText: "Anche quest'anno potrai sostenere con la tua dichiarazione dei redditi",
       colored: " AVIS COMUNALE FORLIMPOPOLI. ",
@@ -275,7 +286,8 @@ export default {
     }
   },
   components: {
-    onlyText
+    onlyText,
+     VuePdfEmbed,
   },
   methods: {
     onSlideStart() {
