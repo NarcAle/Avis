@@ -54,9 +54,9 @@
 
     <div class="assemblea">
       <h4 class="what RED">PROGRAMMA 16° EDIZIONE <br/>FIORIMPOPOLI 2022</h4>
-        <p class="otherText">Unisciti ad AVIS nelle giornate del <b>06, 07 e 08 Maggio 2022</b>.<br/>
-        
-        <a href="https://drive.google.com/file/d/1g6-R1HpmxMzzA_nEtx7m4uRSdW4_mrQ6/view?usp=sharing" target="_blank">Visualizza il programma della festa di fiorimpopoli.</a>
+        <p class="otherText">Unisciti ad AVIS nelle giornate del <b>20, 21 e 22 Maggio 2022</b>.<br/>
+        <img src="../assets/fiorimpopoli.jpg" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
+        <!-- <a href="https://drive.google.com/file/d/1g6-R1HpmxMzzA_nEtx7m4uRSdW4_mrQ6/view?usp=sharing" target="_blank">Visualizza il programma della festa di fiorimpopoli.</a> -->
       </p>
     </div>
     <br/>
