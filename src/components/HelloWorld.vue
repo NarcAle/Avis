@@ -52,14 +52,24 @@
     </div>
     -->
 
+    <!--
     <div class="assemblea">
       <h4 class="what RED">PROGRAMMA 16° EDIZIONE <br/>FIORIMPOPOLI 2022</h4>
         <p class="otherText">Unisciti ad AVIS nelle giornate del <b>20, 21 e 22 Maggio 2022</b>.<br/>
         <img src="../assets/fiorimpopoli.jpg" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
-        <!-- <a href="https://drive.google.com/file/d/1g6-R1HpmxMzzA_nEtx7m4uRSdW4_mrQ6/view?usp=sharing" target="_blank">Visualizza il programma della festa di fiorimpopoli.</a> -->
       </p>
     </div>
+    -->
+
+    <div class="assemblea">
+      <h4 class="what RED">17 LUGLIO 2022 - MIRABILANDIA RELOADED</h4>
+        <p class="otherText">Unisciti ad AVIS nella giornate del <b>17 Luglio 2022</b>.<br/>
+        <img src="../assets/mirabilandida.png" @click="redirectToArticleAVIS" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
+      </p>
+    </div>
+    
     <br/>
+
     <div class="assemblea">
       <h4 class="what">Avviso ai Donatori AVIS </h4>
         <p class="otherText">Come visibile nell’agenda on-line di prenotazione, dal 2022 si dona anche una domenica ogni mese 
@@ -307,6 +317,9 @@ export default {
     },
     redirectVaccino() {
       this.$router.push('/news-vaccino')
+    },
+    redirectToArticleAVIS(){
+      window.open('https://www.avis.it/it/mirabilavis-reloaded')
     },
     redirectBurioni() {
       this.$router.push('/news-burioni')
