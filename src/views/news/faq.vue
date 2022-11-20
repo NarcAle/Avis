@@ -23,6 +23,7 @@
 .fiori
   display: flex
   flex-wrap: wrap
+  max-width: max-content
  
 .hoverImg
   width: 100%

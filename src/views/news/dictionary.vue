@@ -28,6 +28,7 @@
   display: flex
   flex-wrap: wrap
   padding: 10px
+  max-width: max-content
  
 .hoverImg
   width: 100%

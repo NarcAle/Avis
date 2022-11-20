@@ -6,7 +6,7 @@
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>
-    
+  
     <!-- BANNER PASQUA
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
@@ -59,7 +59,7 @@
         <img src="../assets/fiorimpopoli.jpg" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
       </p>
     </div>
-    -->
+    
 
     <div class="assemblea">
       <h4 class="what RED">17 LUGLIO 2022 - MIRABILANDIA RELOADED</h4>
@@ -67,23 +67,35 @@
         <img src="../assets/mirabilandida.png" @click="redirectToArticleAVIS" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
       </p>
     </div>
-    
+    -->
     <br/>
-
+    <div class="Gesto">
+      <h4 class="what RED">Facciamo un gesto concreto</h4>
+      <img src="../assets/GESTO.jpg" @click="openPdf" class="hoverImg fiori" alt="Facciamo un gesto concreto"/>
+    </div>
+    <br/>
     <div class="assemblea">
       <h4 class="what">Avviso ai Donatori AVIS </h4>
         <p class="otherText">Come visibile nell’agenda on-line di prenotazione, dal 2022 si dona anche una domenica ogni mese 
         <br/>(escluso  Giugno, Luglio, Agosto e Settembre).<br/>
-        Grazie e buon 2022 a tutti.
-      </p>
+        </p>
+        <br/><br/>
+        <p class="otherText">Si è deciso per le giornate <b>TELETHON (16,17 e 18 Dicembre)</b> di:
+        <ul>
+          <li> Partecipare e portare, in occasione del <b>mercatino della Segavecchia (1 Dicembre)</b>, i cuori di cioccolata TELETHON </li>
+          <li> Il <b>16 e 17 Dicembre</b> si farà il banchetto presso il Conad</li>
+          <li> Il <b>16, 17 e 18 Dicembre</b> si farà il banchetto presso il Bennet e in piazza </li>
+        </ul>
+        </p>
+        <p class="otherText"> Si è deciso per il <b>mercatino della Segavecchia (13 Novembre e 11 Dicembre)</b> di partecipare con banco informativo</p>
     </div>
     
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  
-        <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/>-->
+        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/>  -->
+        <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/>
         <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
         <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
@@ -272,6 +284,7 @@
 <script>
 import onlyText from '../views/reusableComponent/onlyText.vue'
 import VuePdfEmbed from 'vue-pdf-embed/dist/vue2-pdf-embed'
+
 
 export default {
   data() {
