@@ -71,7 +71,8 @@
     <br/>
     <div class="Gesto">
       <h4 class="what RED">Facciamo un gesto concreto</h4>
-      <img src="../assets/GESTO.jpg" @click="openPdf" class="hoverImg fiori" alt="Facciamo un gesto concreto"/>
+      <img src="../assets/GESTO.jpg" class="hoverImg fiori" alt="Facciamo un gesto concreto"/>
+      <img src="../assets/dona.jpg" class="hoverImg fiori" alt="Facciamo un gesto concreto"/>
     </div>
     <br/>
     <div class="assemblea">
