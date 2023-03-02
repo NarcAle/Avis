@@ -98,6 +98,7 @@
         <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
         <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>-->
+        <img src="../assets/dona_tu.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
         <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
