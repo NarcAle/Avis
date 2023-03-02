@@ -17,7 +17,7 @@
   display: flex
   flex-wrap: wrap
   padding: 10px
-  max-width: max-content
+  max-width: fit-content;
  
 .hoverImg
   width: 100%
