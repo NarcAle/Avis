@@ -58,6 +58,7 @@
         <p class="otherText">Nelle giornate dall' <b>11 Marzo al 19 Marzo </b>torna la Segavecchia di Forlimpopoli.<br/>
           Per la tombola gestita da Avis Forlimpopoli, l'estrazione si terrà il <b>19 Marzo</b> ore <b>21:00</b> in <b>Piazza Garibaldi</b>.<br/>
           Le cartelle si potranno acquistare presso il gazebo allestito in piazza Garibaldi.
+          <img src="../assets/segavecchia2.jpg" class="hoverImg imgNatale" alt="Segavecchia 2023"/>  
       </p>
     </div>
 
@@ -101,7 +102,6 @@
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
         <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>-->
         <img src="../assets/dona_tu.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
-        <img src="../assets/segavecchia2.jpg" class="hoverImg Natale" alt="Segavecchia 2023"/>
         <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <!--<img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>-->
