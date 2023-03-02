@@ -26,12 +26,12 @@
         <br/>
         <p class="text2">DONAZIONI:<br/>
           dalle 7.30 alle 12.00 <br/>
-          Giovedì pomeriggio*: dalle 15.00 alle 17.00</p>
+          Giovedì pomeriggio*: dalle 15.00 alle 17.00
         <br/>
-        <p class="text2">TRASFUSIONALE:<br/>
+        TRASFUSIONALE:<br/>
           Lunedì pomeriggio: dalle 13:00 alle 16.00 <br/>
-          Giovedì pomeriggio*: dalle 15.00 alle 18.00</p>
-        <br/>
+          Giovedì pomeriggio*: dalle 15.00 alle 18.00
+        <br/></p>
         <p class="text2">VISITE ASPIRANTI DONATORI:<br/>
           dalle 11.00 alle 12.00 <br/>
           Giovedì pomeriggio* dalle 16.30 alle 18.00</p>
