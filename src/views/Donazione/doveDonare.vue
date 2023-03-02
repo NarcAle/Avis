@@ -26,7 +26,11 @@
         <br/>
         <p class="text2">DONAZIONI:<br/>
           dalle 7.30 alle 12.00 <br/>
-          Giovedì pomeriggio* dalle 15.00 alle 17.00</p>
+          Giovedì pomeriggio*: dalle 15.00 alle 17.00</p>
+        <br/>
+        <p class="text2">TRASFUSIONALE:<br/>
+          Lunedì pomeriggio: dalle 13:00 alle 16.00 <br/>
+          Giovedì pomeriggio*: dalle 15.00 alle 18.00</p>
         <br/>
         <p class="text2">VISITE ASPIRANTI DONATORI:<br/>
           dalle 11.00 alle 12.00 <br/>
@@ -38,7 +42,7 @@
           dalle 11.00 alle 12.00 (al sabato)<br/>
           Giovedì pomeriggio* dalle 16.30 alle 18.00</p>
         <br/>
-        <p class="text2"><b> *Giovedì pomeriggio: sono esclusi i periodi dal 15/06 al 15/09, dal 24/12 al 7/01, <br/>il giovedì antecedente la Pasqua e i giovedì festivi e prefestivi.</b></p><br/><br/>
+        <p class="text2"><b> Per le donazioni al pomeriggio: sono esclusi i periodi dal 15/06 al 15/09.</b></p><br/><br/>
         <p class="text2"> Per INFO e PRENOTAZIONI:<br/>
           Segreteria  <b>0543-735070/735071 </b><br/>
           Prenotazioni donazioni: dalle 11.00 alle 13.00<br/>
