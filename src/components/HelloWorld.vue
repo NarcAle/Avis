@@ -52,14 +52,16 @@
     </div>
     -->
 
-    <!--
+   
     <div class="assemblea">
-      <h4 class="what RED">PROGRAMMA 16° EDIZIONE <br/>FIORIMPOPOLI 2022</h4>
-        <p class="otherText">Unisciti ad AVIS nelle giornate del <b>20, 21 e 22 Maggio 2022</b>.<br/>
-        <img src="../assets/fiorimpopoli.jpg" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
+      <h4 class="what RED">SEGAVECCHIA 2023 </h4>
+        <p class="otherText">Nelle giornate dall' <b>11 Marzo al 19 Marzo </b>torna la Segavecchia di Forlimpopoli.<br/>
+          Per la tombola gestita da Avis Forlimpopoli, l'estrazione si terrà il <b>19 Marzo</b> ore <b>21:00</b> in <b>Piazza Garibaldi</b>.<br/>
+          Le cartelle si potranno acquistare presso il gazebo allestito in piazza Garibaldi.
       </p>
     </div>
-    
+
+     <!--
 
     <div class="assemblea">
       <h4 class="what RED">17 LUGLIO 2022 - MIRABILANDIA RELOADED</h4>
@@ -99,9 +101,10 @@
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
         <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>-->
         <img src="../assets/dona_tu.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
+        <img src="../assets/segavecchia2.jpg" class="hoverImg Natale" alt="Segavecchia 2023"/>
         <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
-        <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>    
+        <!--<img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>-->
         <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
       </div>
     </div>
