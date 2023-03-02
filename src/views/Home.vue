@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div>
-      <img src="../assets/banner.jpg" style="margin: 0 auto; max-width:99%"></img>
+      <!--<img src="../assets/banner.jpg" style="margin: 0 auto; max-width:99%"/>-->
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>

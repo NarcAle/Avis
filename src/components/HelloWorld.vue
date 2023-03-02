@@ -6,7 +6,7 @@
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
       <img src="../assets/BabboNatale.png" class="hoverImg imgNatale" alt="Babbo Natale"/>  
     </div>
-  
+
     <!-- BANNER PASQUA
     <div>
       <h1 class="titleBanner"> Dalla Nostra associazione </h1>
@@ -67,7 +67,7 @@
         <img src="../assets/mirabilandida.png" @click="redirectToArticleAVIS" class="hoverImg fiori" alt="Fiorimpopoli 2022"/>
       </p>
     </div>
-    -->
+    
     <br/>
     <div class="Gesto">
       <h4 class="what RED">Facciamo un gesto concreto</h4>
@@ -90,7 +90,7 @@
         </p>
         <p class="otherText"> Si è deciso per il <b>mercatino della Segavecchia (13 Novembre e 11 Dicembre)</b> di partecipare con banco informativo</p>
     </div>
-    
+    -->
     <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
@@ -274,8 +274,8 @@
         <p class="title">Eventi sul territorio</p>
       </div>
       <div class="event">
-        <p style="max-width:95%; margin:10px auto; text-align:justify">Al momento gli eventi sono sospesi a seguito delle recenti restrizioni COVID-19. </br>
-          Speriamo di poter ritornare il prima possibile e di poter organizzare nuovi eventi.
+        <p style="max-width:95%; margin:10px auto; text-align:justify">Al momento gli eventi sono sospesi a seguito delle recenti restrizioni COVID-19. 
+          <br/>Speriamo di poter ritornare il prima possibile e di poter organizzare nuovi eventi.
         </p>
       </div>
     </div>
