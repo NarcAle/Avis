@@ -52,7 +52,15 @@
     </div>
     -->
 
-   
+
+    <div class="assemblea">
+      <h4 class="what RED">Torneo scala 40 - 12 Maggio 2023 </h4>
+        <p class="otherText">Nelle giornata del <b>12 Maggio </b>torna il Torneo di Scala 40.<br/>
+          <img src="../assets/scala40.jpg" class="hoverImg imgNatale" alt="Scala40 2023"/>  
+      </p>
+    </div>
+
+   <!--
     <div class="assemblea">
       <h4 class="what RED">SEGAVECCHIA 2023 </h4>
         <p class="otherText">Nelle giornate dall' <b>11 Marzo al 19 Marzo </b>torna la Segavecchia di Forlimpopoli.<br/>
@@ -62,7 +70,7 @@
       </p>
     </div>
 
-     <!--
+     
 
     <div class="assemblea">
       <h4 class="what RED">17 LUGLIO 2022 - MIRABILANDIA RELOADED</h4>
