@@ -116,10 +116,10 @@
         <img src="../assets/spettacolo_circo.jpeg" class="hoverImg Natale" alt="spettacolo CIRCO PAZZO 2023.jpeg"/>
         <img src="../assets/fiorimpopoli_2023.png" class="hoverImg Natale" alt="fiorimpopoli 2023.jpeg"/>
         <img src="../assets/donare_day.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
-        <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
+        <!--<img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
-        <!--<img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>-->
-        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  
+        <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>
+        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  -->
       </div>
     </div>
     <hr/>
