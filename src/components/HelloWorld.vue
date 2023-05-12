@@ -109,6 +109,12 @@
         <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
         <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>-->
+        <img src="../assets/mercatino_bambini.jpeg" class="hoverImg Natale" alt="Mercatino dei bambini 2023"/>
+        <img src="../assets/mostra_disegni.jpeg" class="hoverImg Natale" alt="mostra disegni 2023"/>
+        <img src="../assets/concerto_primavera.jpeg" class="hoverImg Natale" alt="concerto di primavera 2023"/>
+        <img src="../assets/simultanea_scacchi.jpeg" class="hoverImg Natale" alt="simultanea scacchi 2023"/>
+        <img src="../assets/spettacolo_circo.jpeg" class="hoverImg Natale" alt="spettacolo CIRCO PAZZO 2023.jpeg"/>
+        <img src="../assets/fiorimpopoli_2023.png" class="hoverImg Natale" alt="fiorimpopoli 2023.jpeg"/>
         <img src="../assets/donare_day.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
         <img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
