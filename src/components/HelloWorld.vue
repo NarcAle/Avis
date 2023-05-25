@@ -54,9 +54,10 @@
 
 
     <div class="assemblea">
-      <h4 class="what RED">Torneo scala 40 - 12 Maggio 2023 </h4>
-        <p class="otherText">Nelle giornata del <b>12 Maggio </b>torna il Torneo di Scala 40.<br/>
-          <img src="../assets/scala40.jpg" class="hoverImg imgNatale" alt="Scala40 2023"/>  
+      <h4 class="what RED">Contributo alluvione </h4>
+        <p class="otherText">Avis Forlimpopoli ha contribuito con 800 euro di viveri ad aiutare gli alluvionati. </br>
+        Nella foto il presidente che, con gli altri volontari Avis, il <b> 23 Maggio </b>, ha aiutato la protezione civile nello smistamento degli alimenti. <br/>
+          <img src="../assets/alluvione.jpg" class="hoverImg imgNatale" alt="Aiuto alluvionati"/>  
       </p>
     </div>
 
@@ -102,13 +103,13 @@
         <p class="otherText"> Si è deciso per il <b>mercatino della Segavecchia (13 Novembre e 11 Dicembre)</b> di partecipare con banco informativo</p>
     </div>
     -->
-    <div class="bannerVaccino">
+    <!--<div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <!--<img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
+        <img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
-        <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>-->
+        <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>
         <img src="../assets/mercatino_bambini.jpeg" class="hoverImg Natale" alt="Mercatino dei bambini 2023"/>
         <img src="../assets/mostra_disegni.jpeg" class="hoverImg Natale" alt="mostra disegni 2023"/>
         <img src="../assets/concerto_primavera.jpeg" class="hoverImg Natale" alt="concerto di primavera 2023"/>
@@ -119,10 +120,10 @@
         <!--<img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>
-        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/>  -->
+        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/> 
       </div>
     </div>
-    <hr/>
+    <hr/>-->
     <div class="newApp">
       <h3 class="darkblue">Donare sangue è sempre importante e oggi più semplice con la prenotazione</h3>
       <div> 
