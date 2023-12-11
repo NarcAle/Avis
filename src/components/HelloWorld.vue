@@ -61,6 +61,11 @@
       </p>
     </div>
 
+    <div class="assemblea">
+      <h4 class="what RED">NOTIZIE IN EVIDENZA </h4>
+        <img src="../assets/TELETHON2.jpg" class="hoverImg imgNatale" alt="dONAZIONE"/>  
+    </div>
+
    <!--
     <div class="assemblea">
       <h4 class="what RED">SEGAVECCHIA 2023 </h4>
