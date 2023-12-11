@@ -103,10 +103,10 @@
         <p class="otherText"> Si è deciso per il <b>mercatino della Segavecchia (13 Novembre e 11 Dicembre)</b> di partecipare con banco informativo</p>
     </div>
     -->
-    <!--<div class="bannerVaccino">
+    <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
-      <div class="styleImg">
+      <!--<div class="styleImg">
         <img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
         <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
         <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>
@@ -116,14 +116,14 @@
         <img src="../assets/simultanea_scacchi.jpeg" class="hoverImg Natale" alt="simultanea scacchi 2023"/>
         <img src="../assets/spettacolo_circo.jpeg" class="hoverImg Natale" alt="spettacolo CIRCO PAZZO 2023.jpeg"/>
         <img src="../assets/fiorimpopoli_2023.png" class="hoverImg Natale" alt="fiorimpopoli 2023.jpeg"/>
-        <img src="../assets/donare_day.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
-        <!--<img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
-        <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
+        <img src="../assets/donare_day.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>-->
+        <img src="../assets/telethon2.jpg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
+        <!--<img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
         <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>
-        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/> 
+        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/> -->
       </div>
     </div>
-    <hr/>-->
+    <hr/>
     <div class="newApp">
       <h3 class="darkblue">Donare sangue è sempre importante e oggi più semplice con la prenotazione</h3>
       <div> 
