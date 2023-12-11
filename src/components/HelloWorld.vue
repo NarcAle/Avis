@@ -63,7 +63,7 @@
 
     <div class="assemblea">
       <h4 class="what RED">NOTIZIE IN EVIDENZA </h4>
-        <img src="../assets/TELETHON2.jpg" class="hoverImg imgNatale" alt="dONAZIONE"/>  
+        <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="dONAZIONE"/>  
     </div>
 
    <!--
