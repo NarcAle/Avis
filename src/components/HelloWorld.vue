@@ -72,6 +72,8 @@
       <h4 class="what RED"> AVIS VI AUGURA UN BUON NATALE</h4>
       <img src="../assets/Natale2023.jpeg" class="hoverImg imgNatale" alt="Natale 2023"/>
     </div>
+
+    </br></br>
    <!--
     <div class="assemblea">
       <h4 class="what RED">SEGAVECCHIA 2023 </h4>
