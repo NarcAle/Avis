@@ -67,6 +67,7 @@
           <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="DONAZIONE"/> 
         </p>         
     </div>
+    </br></br>
     <div class="assemblea">
       <h4 class="what RED"> AVIS VI AUGURA UN BUON NATALE</h4>
       <img src="../assets/Natale2023.jpeg" class="hoverImg imgNatale" alt="Natale 2023"/>
