@@ -66,7 +66,7 @@
         <p class="otherText"> Noi volontari Avis Forlimpopoli saremo in piazza Garibaldi il 10 e il 17 Dicembre con un punto informativo per nuove adesioni e con i cuori di ciollolato Telethon per sostenere la ricerca sulle malattie genetiche rare.
           <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="DONAZIONE"/> 
         </p> 
-        <img src="../assets/Natale2023.jpg" class="hoverImg imgNatale" alt="Natale 2023"/>  
+        <img src="../assets/Natale2023.jpeg" class="hoverImg imgNatale" alt="Natale 2023"/>  
         
     </div>
 
