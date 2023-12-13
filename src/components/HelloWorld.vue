@@ -53,17 +53,19 @@
     -->
 
 
-    <div class="assemblea">
+    <!--<div class="assemblea">
       <h4 class="what RED">Contributo alluvione </h4>
         <p class="otherText">Avis Forlimpopoli ha contribuito con 800 euro di viveri ad aiutare gli alluvionati. </br>
         Nella foto il presidente che, con gli altri volontari Avis, il <b> 23 Maggio </b>, ha aiutato la protezione civile nello smistamento degli alimenti. <br/>
           <img src="../assets/alluvione.jpg" class="hoverImg imgNatale" alt="Aiuto alluvionati"/>  
       </p>
-    </div>
+    </div> -->
 
     <div class="assemblea">
       <h4 class="what RED">NOTIZIE IN EVIDENZA </h4>
-        <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="DONAZIONE"/>  
+        <p class="otherText"> Noi volontari Avis Forlimpopoli saremo in piazza Garibaldi il 10 e il 17 Dicembre con un punto informativo per nuove adesioni e con i cuori di ciollolato Telethon per sostenere la ricerca sulle malattie genetiche rare.
+          <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="DONAZIONE"/> 
+        </p> 
         <img src="../assets/Natale2023.jpg" class="hoverImg imgNatale" alt="Natale 2023"/>  
         
     </div>
