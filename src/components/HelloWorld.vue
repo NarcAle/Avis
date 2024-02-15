@@ -14,44 +14,54 @@
     </div>
      -->
 
-    <!-- BANNER ASSEMBLEA
+    <!-- BANNER ASSEMBLEA-->
     <div class="assemblea">
-      <p class="location">Forlimpopoli, 09/04/2021</p>
-      <h4 class="what">Assemblea dei soci avis 02/05/2021 ore 10.00</h4>
-      <p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>
+      <p class="location">Forlimpopoli, 02/02/2024</p>
+      <h4 class="what">Assemblea dei soci avis 23/02/2021 ore 20.30</h4>
+      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
       Carissimo/a ti invito a partecipare all'Assemblea Annuale Ordinaria dei soci 
-      AVIS che si terrà in Piazza Fratti a Forlimpopoli (nel cortile interno della Rocca all'apeno) 
-      il giorno 01 maggio 2021 alle ore 05.00 in prima convocazione ed in seconda convocazione il giorno 
-      <b>02/05/2021</b> alle ore 10,00. In caso di pioggia il tutto sani rimandato al giorno 09 maggio c.a. 
-      con gli stessi orari e luogo.</p>
+      AVIS FORLIMPOPOLI ODV e alla cerimonia della premiazione dei donatori
+      che si terrà presso <b> il CINEMA TEATRO VERDI in Piazza Fratti 7, Forlimpopoli,</b> il giorno 22/02/2024 
+      alle ore 05.00 in prima convocazione ed in <b>seconda convocazione il giorno</b> <b color='red'>23/02/2024 
+      alle ore 20,30</b> con il seguente</p>
       <p class="center">ORDINE DEL GIORNO</p>
       <ul class="listDecimal">
         <li>Nomina Segretario dell'assemblea;</li>
-        <li>Insediamento commissione elettorale;</li>
-        <li>Proposta numero dei Consiglieri del nuovo Consiglio;</li>
-        <li>Presentazione della Relazione del Consiglio dell'attività svolta e futura;</li>
-        <li>Presentazione relazione bilancio consuntivo 2020 e preventivo;</li>
-        <li>Interventi concusivi e approvazioni delle relazioni;</li>
-        <li>Nomina dei Delegati Assemblea Provinciale;</li>
-        <li>Inizio votazioni per il nuovo Consiglio;</li>
+        <li>Relazione del Presidente sulle attività svolte e future;</li>
+        <li>Relazione del tesoriere sul bilancio consuntivo 2023 e preventivo 2024;</li>
+        <li>Discussione ed approvazione delle relazioni;</li>
+        <li>Nomina delegati all’Assemblea Provinciale;</li>
         <li>Saluto alle autorità presenti;</li>
-        <li>Conferimento onoreficienze;</li>
-        <li>Saluti conclusivi.</li>
+        <li>Premiazione dei donatori benemeriti, in base alle donazioni effettuate al 30/06/2023;</li>
+        <li>Estrazione, fra i presenti, di simpatici premi;</li>
+        <li>Saluti conclusivi e distribuzione pacco dono a tutti i soci presenti;</li>
       </ul>
-      <p class="otherText">RICORDO che in questa assemblea si vota per eleggere il nuovo consiglio direttivo che si occupa di guidare 
-        l'associazione per il quadriennio 2021/2024 e la tua presenza è fondamentale, inoltre sollecito chi 
-        desidera candidarsi ed essere in lista a comunicarlo in segreteria entro domenica 25 aprile (cell.388 8033323) 
-        mail - <a href="avisforlimpopoli@gmail.com">avisforlimpopoli@gmail.com.</a></br></br>
-      * Santa Messa per l'associazione e per defunti Avis sarà celebrata nella Basilica di San. Rufillo domenica 
-      02 Maggio alle ore 17.30.</br></br>
-      Chi fosse impossibilitato a partecipare, come previsto all'art.8.c5 dello statuto in essere, può essere rappresentato
-      da altro socio donatore munito di delega, che trovi unita alla presente. <br/><br/>
-      N.B Per rispettare le normative covid 19 e distanziamento sociale vi invitiamo a presentarvi già dalle ore 9.00 del 
-      02/05/2021 con mascherina.
+      <p class="otherText">Se sei impossibilitato a partecipare, come previsto all'art.8.c5 dello statuto in essere, 
+        puoi essere rappresentato da altro socio donatore munito di delega, che trovi unita alla presente. <br/><br/>
+      <b>Vista l’importanza degli argomenti all’ordine del giorno, si raccomanda la massima partecipazione.</b>
       </p>
     </div>
-    -->
 
+    <div class="assemblea">
+      <h4 class="what">RITIRO PACCO DONO</h4>
+      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
+      <p>Tutti i soci iscritti all’AVIS Forlimpopoli ODV hanno diritto a ricevere il pacco dono
+        che quest’anno consiste in un alimento per aiutare una ditta che ha subito danni dall’alluvione di maggio scorso, 
+        IL TERMINE ULTIMO PER IL RITIRO SARA’ IL 24 APRILE 2024.
+        Il pacco dono potrà essere ritirato al termine dell’assemblea oppure presso la sede, 
+        in via Duca d’Aosta 33, tutti i mercoledì dalle 17 alle 19 fino al 24 aprile 2024. 
+        In via eccezionale la sede rimarrà aperta anche dal 26/02/2024 al 01/03/2024 compresi, 
+        dalle ore 17.00 alle ore 19.00 e sabato 24/02/2024 e 02/03/2024 dalle ore 08.30 alle ore 12.30.</p>
+    </div>
+
+    <div class="assemblea">
+      <h4 class="what">SANTA MESSA</h4>
+      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
+      <p>Domenica 25/02/2024 alle ore 10.00 presso la Chiesa di S. Spirito, sarà celebrata una Santa Messa 
+          per l’associazione AVIS Forlimpopoli ODV ed in suffragio di tutti i soci defunti.</p>
+    </div>
+    <!-- -->
+    <br/><br/>
 
     <!--<div class="assemblea">
       <h4 class="what RED">Contributo alluvione </h4>
