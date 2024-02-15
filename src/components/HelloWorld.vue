@@ -71,7 +71,7 @@
       </p>
     </div> -->
 
-    <div class="assemblea">
+    <!--<div class="assemblea">
       <h4 class="what RED">NOTIZIE IN EVIDENZA </h4>
         <p class="otherText"> Noi volontari Avis Forlimpopoli saremo in piazza Garibaldi il 10 e il 17 Dicembre con un punto informativo per nuove adesioni e con i cuori di ciollolato Telethon per sostenere la ricerca sulle malattie genetiche rare.
           <img src="../assets/telethon2.jpg" class="hoverImg imgNatale" alt="DONAZIONE"/> 
@@ -82,8 +82,8 @@
       <h4 class="what RED"> AVIS VI AUGURA UN BUON NATALE</h4>
       <img src="../assets/Natale2023.jpeg" class="hoverImg imgNatale" alt="Natale 2023"/>
     </div>
-
     </br></br>
+    -->
    <!--
     <div class="assemblea">
       <h4 class="what RED">SEGAVECCHIA 2023 </h4>
