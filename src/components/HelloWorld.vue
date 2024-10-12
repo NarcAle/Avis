@@ -14,11 +14,10 @@
     </div>
      -->
 
-    <!-- BANNER ASSEMBLEA-->
+    <!-- BANNER ASSEMBLEA
     <div class="assemblea">
       <p class="location">Forlimpopoli, 02/02/2024</p>
       <h4 class="what">Assemblea dei soci avis 23/02/2021 ore 20.30</h4>
-      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
       Carissimo/a ti invito a partecipare all'Assemblea Annuale Ordinaria dei soci 
       AVIS FORLIMPOPOLI ODV e alla cerimonia della premiazione dei donatori
       che si terrà presso <b> il CINEMA TEATRO VERDI in Piazza Fratti 7, Forlimpopoli,</b> il giorno 22/02/2024 
@@ -44,7 +43,6 @@
 
     <div class="assemblea">
       <h4 class="what">RITIRO PACCO DONO</h4>
-      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
       <p>Tutti i soci iscritti all’AVIS Forlimpopoli ODV hanno diritto a ricevere il pacco dono
         che quest’anno consiste in un alimento per aiutare una ditta che ha subito danni dall’alluvione di maggio scorso, 
         IL TERMINE ULTIMO PER IL RITIRO SARA’ IL 24 APRILE 2024.
@@ -56,12 +54,11 @@
 
     <div class="assemblea">
       <h4 class="what">SANTA MESSA</h4>
-      <!--<p class="otherText">con elezioni del nuovo Consiglio per il quadriennio 2021/2024)<br/>-->
       <p>Domenica 25/02/2024 alle ore 10.00 presso la Chiesa di S. Spirito, sarà celebrata una Santa Messa 
           per l’associazione AVIS Forlimpopoli ODV ed in suffragio di tutti i soci defunti.</p>
-    </div>
-    <!-- -->
-    <br/><br/>
+    </div>-->
+    <!-- 
+    <br/><br/>-->
 
     <!--<div class="assemblea">
       <h4 class="what RED">Contributo alluvione </h4>
@@ -83,7 +80,7 @@
       <img src="../assets/Natale2023.jpeg" class="hoverImg imgNatale" alt="Natale 2023"/>
     </div>
     </br></br>
-    -->
+    --> 
    <!--
     <div class="assemblea">
       <h4 class="what RED">SEGAVECCHIA 2023 </h4>
@@ -126,27 +123,14 @@
         <p class="otherText"> Si è deciso per il <b>mercatino della Segavecchia (13 Novembre e 11 Dicembre)</b> di partecipare con banco informativo</p>
     </div>
     -->
-    <!--<div class="bannerVaccino">
+    <div class="bannerVaccino">
       <div><p class="textBanner">Notizie in evidenza</p></div>
       <hr/>
       <div class="styleImg">
-        <img src="../assets/Natale.jpeg" class="hoverImg Natale" alt="dona"/> 
-        <img src="../assets/burioni.jpg" @click="redirectBurioni" class="hoverImg Natale" alt="burioni"/> 
-        <img src="../assets/assemblea.png" class="hoverImg Natale" alt="Assemblea donatori"/>
-        <img src="../assets/mercatino_bambini.jpeg" class="hoverImg Natale" alt="Mercatino dei bambini 2023"/>
-        <img src="../assets/mostra_disegni.jpeg" class="hoverImg Natale" alt="mostra disegni 2023"/>
-        <img src="../assets/concerto_primavera.jpeg" class="hoverImg Natale" alt="concerto di primavera 2023"/>
-        <img src="../assets/simultanea_scacchi.jpeg" class="hoverImg Natale" alt="simultanea scacchi 2023"/>
-        <img src="../assets/spettacolo_circo.jpeg" class="hoverImg Natale" alt="spettacolo CIRCO PAZZO 2023.jpeg"/>
-        <img src="../assets/fiorimpopoli_2023.png" class="hoverImg Natale" alt="fiorimpopoli 2023.jpeg"/>
-        <img src="../assets/donare_day.jpg" class="hoverImg Natale" alt="Aspiranti donatori"/>
-        <!--<img src="../assets/telethon.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
-        <img src="../assets/telethon2.jpeg" class="hoverImg Natale" alt="Raccolta fondi telethon"/>
-        <img src="../assets/AVIS_VOLANTINO.jpg" class="hoverImg Natale" alt="dona"/>
-        <img src="../assets/vaccinoR.jpg" @click="redirectVaccino" class="hoverImg Natale" alt="vaccino"/> 
+        <img src="../assets/DonaTu.jpg" class="hoverImg Natale" alt="dona"/> 
       </div>
     </div>
-    <hr/>-->
+    <hr/>
     <div class="newApp">
       <h3 class="darkblue">Donare sangue è sempre importante e oggi più semplice con la prenotazione</h3>
       <div> 
